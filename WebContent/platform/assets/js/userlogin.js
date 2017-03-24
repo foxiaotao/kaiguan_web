@@ -1,6 +1,7 @@
 var login_error_his = null;
 jQuery(document).ready(function () {
-	
+	$.cookie('token',"6rs9R0");
+	$.cookie('uid',"1003001000");
     /********** Page Init **********/
     if ($.cookie('token') != null) {
         window.location.href = 'home/home.html';
