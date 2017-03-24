@@ -1,0 +1,69 @@
+ul,li,a{list-style: none;text-decoration: none;display: inline-block;color: #fff;margin: 0;padding: 0;}
+.wrap_theme {background: #e8e8ff;width: 100%;}
+.wrap_theme .main{width: 1000px;padding: 100px 0 50px 0;}
+.wrap_theme .main h2{width: 1000px;height: 40px;line-height: 40px;border-bottom: 1px solid #333;color: #333;font-size: 30px;}
+.wrap_theme .main span{font-size: 30px;display:inline-block;height:40px;overflow:hidden;}
+.wrap_theme .main span.dot{font-family:'Microsoft YaHei';font-size:10px;line-height:40px;width:5px;padding:0 5px;}
+.wrap_theme .blue{color: #69c;}
+.wrap_theme ul.content{width: 100%;overflow: hidden;padding-top: 20px;}
+.wrap_theme ul li{width: 90%;margin: 0 auto;display:block;}
+.wrap_theme a.detailLink{width: 20%;margin: 10px;border: 2px solid #fff;background: url(../../img/theme/onlineTheme01.png) no-repeat;}
+.wrap_theme a.a001002theme01{background: url(../../img/theme/001002-theme-1-gogogo.png) no-repeat;}
+.wrap_theme a.a001002theme02{background: url(../../img/theme/001002-theme-2-god.png) no-repeat;}
+.wrap_theme a.a001002theme03{background: url(../../img/theme/001002-theme-3-festival.png) no-repeat;}
+.wrap_theme a.a001002theme04{background: url(../../img/theme/001002-theme-4-bull.png) no-repeat;}
+.wrap_theme a.a001002theme05{background: url(../../img/theme/001002-theme-5-toilet.png) no-repeat;}
+.wrap_theme a.a001002theme06{background: url(../../img/theme/001002-theme-6-curse.png) no-repeat;}
+.wrap_theme a.a001002theme07{background: url(../../img/theme/001002-theme-7-hello.png) no-repeat;}
+.wrap_theme a.a001002theme08{background: url(../../img/theme/001002-theme-8-bye.png) no-repeat;}
+.wrap_theme a.a001002theme09{background: url(../../img/theme/001002-theme-9-whotreat.png) no-repeat;}
+.wrap_theme a.a001002theme10{background: url(../../img/theme/001002-theme-10-eatdrink.png) no-repeat;}
+.wrap_theme a.a001002theme11{background: url(../../img/theme/001002-theme-11-inlove.png) no-repeat;}
+.wrap_theme a.a001002theme12{background: url(../../img/theme/001002-theme-12-sex.png) no-repeat;}
+.wrap_theme a h4{
+	width: 100%;/* 
+	height: 30px;
+	line-height: 30px;
+	margin-top: 160px; */
+	font-size: 16px;
+	font-weight: normal;
+	overflow: hidden;
+	text-align: center;
+	background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* Safari 5.1 - 6 */
+	background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* Opera 11.1 - 12*/
+	background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1)); /* Firefox 3.6 - 15*/
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.banner{background:#000;}
+@media (max-width: 960px) {
+	.wrap_theme *{font-family:"Microsoft YaHei";}
+	.wrap_theme .main{width: 100%;padding-top:20px;}
+	.wrap_theme .main h2{width: 100%;}
+	.wrap_theme .main h2 span{display: none;}
+	.wrap_theme .main h2 span.orange{display: inline-block;font-size:20px;}
+	.wrap_theme a.detailLink{width:40%;background-size:100% 100%;}
+}
+
+
+#pageInitHtml span{display:inline;}
+
+
+
+.sub{display: none;overflow: hidden;background: #fff;position: absolute;top: 76px;left: 0;width: 100%;}
+.center{width: 960px;margin: 0 auto;padding: 20px;overflow: hidden;}
+.center img,.center .words{float: left;}
+.center .words{width: 520px;height: 160px;margin-left: 80px;}
+.center .words a{font-size:14px;width: 70px;height: 41px;line-height: 40px;font-weight: bold;}
+.video{width: 100%;position: fixed;bottom: 0;left: 0;overflow: hidden;background: #000;}
+.cd{float: left;width: 60px;height: 60px;margin: 10px 30px 0 30px;}
+.img{float: left;width: 75px;overflow: hidden;}
+
+.center span.cdtitle{color: #fff;display:block;font-size:20px;}
+.music-nav{margin: 5px 0 0 30px;color: #fff;float: left;height:70px;width:600px;font-size:16px;}
+.music-nav input{width: 450px;height: 0.25rem;background-color: #888;-webkit-appearance: none;outline: none;}
+
+.tabAccent{float:right;overflow:hidden;}
+.tabAccent a{text-align:center;color:#e8e8ff;width:120px;height:27px;line-height:27px;background: url(../../img/theme/160413type.png);background-size: 100% 100%;display:block;margin:5px 0;}
+.tabAccent a.on{color:#000;background: url(../../img/theme/160413typeon.png);background-size: 100% 100%;}
+

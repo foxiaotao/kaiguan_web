@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育服务平台-语言中心</title>
+	<link rel="stylesheet" href="../../assets/css/server/servicemain.css">
+	<link rel="stylesheet" href="../../assets/css/theme/theme.css">
+	<link rel="stylesheet" href="../../assets/css/public/publicStyle.css">
+	<script src="../../assets/js/jquery-1.8.2.min.js"></script>
+	<script src="../../assets/js/jquery.cookie.js"></script>
+	<script src="../../assets/js/baseUrl.js"></script>
+	<script src="../../assets/js/util/top_tool_language.js"></script>
+	<script src="../../assets/js/theme/playerTheme.js"></script>
+	<script src="../../assets/js/theme/themeDetail.js"></script>
+</head>
+<body>
+	<div class="wrap_theme">
+		<div class="publicbanner">
+			<select name="lang" id="lang01">
+				<option value="01">开关英语</option>
+				<option value="02">开关英语</option>
+				<option value="03">开关英语</option>
+			</select>
+			<div class="tool">
+				<a href="#" class="userInfo" title="个人中心"></a>
+				<span class="welcomeText">请登录</span>
+				<a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<div class="main">
+			<h2>
+			    <span id="nav_theme_languageCenter">线上阅读</span>
+			    <span class="dot">·</span>
+			    <span id="nav_theme_theme">趣味话题</span></h2>
+			<div class="content" style="padding-top:50px;">
+			    <iframe id="iframe_theme" width=1000 height=430 frameborder=0 scrolling=auto src=""></iframe>
+<!-- 			    <iframe width=1000 height=530 frameborder=0 scrolling=auto src="001002-theme-1.htm"></iframe> -->
+			</div>
+		</div>
+
+	</div>
+	<div class="video">
+		<div class="center">
+			<div class="cd">
+            	<div class="start"><img src="../../assets/img/test/160329start.png" alt=""></div>
+            	<div class="pause"><img src="../../assets/img/test/160329pause.png" alt=""></div>
+<!--             	<div class="pause" style="display:none"><img src="../../assets/img/test/160329pause.png" alt=""></div> -->
+	        </div>     
+			<div class="img"><img src="../../assets/img/test/A.png" alt="" id="player_img"></div>
+			<div class="music-nav">
+			    <span class="cdtitle">在线专题</span>
+				<input type="range" min="0" max="0" step="0.4" value="0" id="scale">
+				<span class="now" id="now">00:00</span>/
+				<span class="entire" id="entire">00:00</span>
+			</div>
+<!-- 			<div class="tabAccent"> -->
+<!-- 			    <a href="javascript:;" class="American on">美式发音</a> -->
+<!-- 			    <a href="javascript:;" class="English">英式发音</a> -->
+<!-- 			</div> -->
+			<audio src="" id="music" loop="loop"></audio>
+<!-- 			<audio src="./001002-theme-2-god.mp3" id="music" loop="loop"></audio> -->
+<!-- 			<audio src="http://192.168.3.144:8080/html/staticpool/language/theme/001002/001002-theme-2/001002-theme-2-god.mp3" id="music" loop="loop"></audio> -->
+		</div>
+	</div>
+</body>
+</html>

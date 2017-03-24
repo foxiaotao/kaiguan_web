@@ -1,0 +1,39 @@
+.userInfoText{position:absolute;top:10%;left:50%;margin-left:-700px;width:1200px;height:auto;text-align:left}
+.everyone{margin-top:inherit;margin:0 auto 0 auto;width:900px;height:auto;text-align:left}
+.self{margin-top:inherit;margin:0 auto 0 auto;width:900px;height:auto;text-align:left}
+
+.subtitle{margin-top:inherit;margin:1cm auto -22px 0;width:200px;height:30px;background-color:#f4e6f4}
+.tips{margin:0 auto 0 5cm;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#b0aeaf;font-size: 14px;}
+.subtitle_text{text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#f97474;font-size: 16px;font-weight: bold}
+
+.item{margin-top:inherit;margin:15px;}
+.name{width:700px;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#444242;font-size: 16px;}
+.content{text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#ffa922;font-size: 16px;}
+.opt{text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+.opt_gender{text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+.opt_birthday{text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+.save{display:none;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+.save_gender{display:none;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+.save_birthday{display:none;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+.input{width:240px;height:25px;border:0;text-align:left;text-indent:10px; word-spacing:10px;letter-spacing:2px;background-color:transparent;color:#ffa922;font-size: 16px;}
+.hr{border-top:2px solid #c8b748;} 
+#birthday_s{width:240px;height:25px;background-color:transparent;color:#ffa922;font-size: 16px;border:0; line-height:20px; padding:2px;}
+
+
+
+
+
+
+
+.backgrund_frame{position:absolute;top:25%;left:50%;margin-left:-350px;width:700px;height:357px;background:url(../img/reg/frame_0.png);text-align:center}
+.input_area{margin-top:inherit;margin:1cm auto 1cm auto;width:400px;height:180px;text-align:center}
+.button_area{margin-top:inherit;margin:1cm auto 1cm auto;width:400px;height:100px;text-align:center}
+#title_text_msg{}
+#country_input{width:303px; height:36px;border-radius:5px;border:2px solid #ddd39a;word-spacing:10px;letter-spacing:2px;font-size:14px; font-family:Î¢ÈíÑÅºÚ;text-indent:12px;}
+#phone_input_suff{width:40px; height:30px;border-radius:5px;border:2px solid #ddd39a;text-align:center}
+#phone_input{width:250px; height:30px;border-radius:5px;border:2px solid #ddd39a; text-indent:10px; word-spacing:10px;letter-spacing:2px;}
+#code{width:160px; height:30px;border-radius:5px;border:2px solid #ddd39a; text-indent:10px; word-spacing:10px;letter-spacing:2px;}
+
+#check_box{width: 20px;height: 20px;}
+#reg{width: 200px;height: 35px;background-color:#b1954a;zoom:1;border-radius:5px;font:bold 20px arial;color:#ffffff}
+#verify{width: 200px;height: 35px;background-color:#b1954a;zoom:1;border-radius:5px;font:bold 20px arial;color:#ffffff}

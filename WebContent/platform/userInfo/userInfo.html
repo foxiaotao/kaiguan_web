@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head lang="zh-CN">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>开关教育服务平台-个人中心</title>
+    <!-- CSS -->
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+    <link rel="stylesheet" href="../assets/css/reset.css">
+	<link rel="stylesheet" href="../assets/css/public/publicStyle.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="../assets/css/server/servicemain.css">
+    <link rel="stylesheet" href="../assets/css/user/user_detail.css">	
+    
+	<script src="../assets/js/jquery-1.8.2.min.js"></script>
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/diagMsg/jquery.gritter.min.js"></script>
+    <script src="../assets/js/diagMsg/common.js"></script>
+    <script src="../assets/js/diag.js"></script>
+    <script src="../assets/js/util/md5.js"></script>
+    <script src="../assets/js/baseUrl.js"></script>
+    <script src="../assets/js/userInfo/userinfo.js"></script>
+    <script src="../assets/js/userInfo/infoChange.js"></script>
+    <script src="../assets/js/userInfo/user_detail.js"></script>
+    <script src="../assets/js/util/nav_tool_0505_for_userinfo.js"></script>
+</head>
+<body>
+	<div class="wrap_userinfo">
+		<div class="publicbanner">
+			<select name="lang" id="lang01">
+				<option value="01">开关英语</option>
+				<option value="02">开关英语</option>
+				<option value="03">开关英语</option>
+			</select>
+			<div class="tool">
+				<a href="#" class="userInfo" title="个人中心"></a>
+				<span class="welcomeText">请登录</span>
+				<a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="header">
+				<h2 class="neworange">个人中心</h2>
+			</div>
+			<div class="tab_cont">
+				<ul class="tabs">
+					<li class="on"><a href="#tab1">个人信息<span>Personal</span></a></li>
+					<li><a href="#tab2">账户信息<span>Account</span></a></li>
+					<li><a href="#tab3">统计信息<span>Statistics</span></a></li>
+					<li><a href="#tab4">安全管理<span>Safety</span></a></li>
+<!-- 					<li><a href="#tab5">常用地址<span>Address</span></a></li> -->
+				</ul>
+				<div class="content">
+										<div class="tab_content" id="tab1">
+						<div class="public_info">
+							<h3 class="neworange">
+								公开信息： <span class="tips">（公开信息对其他会员可见）</sapn>
+							</h3>
+							<p>
+								<span class="inputTitle">开关号：</span><span class="uid input"></span><input
+									type="text" id="uid" readonly="readonly" />
+							</p>
+							<p>
+								<span class="inputTitle">中文昵称：</span><span id="chnname_span" class="chnname input"></span><input type="text" id="chnname_input"/>
+									<span class="edit">
+									<a href="javascript:;" id="chnname_change" class="change"><img alt="修改" src="../assets/img/user/160125change.png"></a> 
+									<a href="javascript:;" id="chnname_cancel" class="cancel">取消</a> <a id="chnname_save" href="javascript:;" class="save">保存</a> </span>
+							</p>
+							<p>
+								<span class="inputTitle">英文昵称：</span><span id="engname_span" class="engname input"></span><input type="text" id="engname_input" />
+									<span class="edit">
+									<a href="javascript:;" id="engname_change" class="change"><img alt="修改" src="../assets/img/user/160125change.png"></a>
+									<a href="javascript:;" id="engname_cancel" class="cancel">取消</a><a id="engname_save" href="javascript:;" class="save">保存</a>
+								</span>
+							</p>
+						</div>
+						<div class="private_info">
+							<h3 class="neworange">
+								非公开信息： <span class="tips">（非公开信息对所有人不可见，主要用于开关教育与您个人的沟通联系）</sapn>
+							</h3>
+							<p>
+								<span class="inputTitle">手机号：</span><span
+									class="cellphone input"></span><input type="text"
+									id="cellphone" />
+							</p>
+							<p>
+								<span class="inputTitle">真实姓名：</span><span id="realname_span" class="realname input"></span><input type="text" id="realname_input" />
+								<span class="edit">
+								<a href="javascript:;" id="realname_change" class="change"><img alt="修改" src="../assets/img/user/160125change.png"></a>
+								<a href="javascript:;" id="realname_cancel" class="cancel">取消</a><a id="realname_save" href="javascript:;" class="save">保存</a></span>
+							</p>
+							<p>
+								<span class="inputTitle">所在市/区：</span><span class="city input"></span><input
+									type="text" id="city" /><span class="edit"><a href="userAddr.html">修改所有地址</a></span>
+							</p>
+						</div>
+					</div>
+					<div class="tab_content" id="tab2">
+						<h3 class="neworange">账户余额：</h3>
+						<p>
+							您的账户余额为<span class="neworange" id="balance">0</span>元
+							<!-- <a href="#" class="detail">明细</a>
+							<a href="#" class="pay">充值</a> -->
+						</p>
+						<h3 class="neworange">优惠券：</h3>
+						<div id="coupon_content">
+							<div class="coupon">
+								<span class="coupon_title">系列培训优惠券（200元）</span>
+								<span class="coupon_date">有效期至：2023年12月21日</span>
+								<span class="coupon_use">未使用</span>
+							</div>
+						</div>
+					</div>
+					<div class="tab_content" id="tab3">
+						<h3 class="neworange">统计信息：</h3>
+						<p>您的开关英语个人笔记已使用<span class="neworange" id="sortage"></span>存储空间</p>
+					</div>
+					<div class="tab_content" id="tab4">
+						<h3 class="neworange">修改密码</h3>
+						<div id="password_html">
+							<p>请输入原始密码：<input type="password" id="pwo" class="password"></p>
+							<p>请输入新的密码：<input type="password" id="pw" class="password"></p>
+							<p>请再次输入密码：<input type="password" id="pwr" class="password"></p>
+						</div>
+						<p class="center">
+							<a href="javascript:;" class="button" id="xs">显示密码</a>
+		    				<a href="javascript:;" class="button" id="yc" style="display:none">隐藏密码</a>
+							<a href="javascript:;" class="reset button" id="passwordReset">重置</a>
+							<a href="javascript:;" class="save button" id="passwordSave">保存</a>
+						</p>
+						
+					</div>
+<!-- 					<div class="tab_content" id="tab5"> -->
+<!-- 						<div id="addrList"> -->
+<!-- 							 <div class="address"> -->
+<!-- 							    <p class="addr"> -->
+<!-- 							        <a class="changeaddr"></a> -->
+<!-- 									<span class="addr">地址：北京市北京海淀区知春路25号</span> -->
+<!-- 									<span class="name">姓名：严嘉榕</span> -->
+<!-- 									<span class="phoneNumber">联系电话：18686866688</span> -->
+<!-- 								</p> -->
+<!-- 								<a href="javascript:;" class="check on"></a> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
+<!-- 					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+</body>
+</html>

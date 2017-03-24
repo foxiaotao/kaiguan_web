@@ -1,0 +1,39 @@
+*{padding: 0;margin: 0;text-decoration: none;}
+html,body{font-size: 12px;font-family: 'Microsoft YaHei';}
+ul,li{list-style: none;}
+a,span{display: inline-block;}
+
+.header{width: 1000px;height: 80px;margin: 0 auto;position:absolute;top:0;}
+.lbflash{width: 100%;height: 300px;}
+.footer{width: 100%;height: 64px;background: #194982;color: #93bae8;border-top: 1px solid #dedede;margin-top: 15px;}
+.footer p{text-align: center;}
+.wrap_recruit .lbflash{background: #333 url(../images/recruit/160120header.jpg) no-repeat 50%;}
+
+.company_banner{position: absolute;top: 0;height: 70px;width: 1000px;left: 50%;margin-left: -500px;z-index: ebebeb;}
+.company_banner .logo{background: url(../../images/product/company_logo.png) no-repeat;width: 168px;height: 53px;margin: 10px 40px 0 0;float: left;}
+.company_banner a{float:left;width: 86px;height: 50px;margin: 10px 20px 10px 0;color: #fff;font-size: 18px;line-height: 50px;text-align: center;font-family: Microsoft YaHei;}
+.company_banner a.service{float: right;background: url(../../images/product/company_plane.png)no-repeat 0 15px;padding-left: 30px;color: #ebb450;}
+.company_banner a.service:hover{border-bottom: none;}
+.company_banner a:hover,.company_banner a.on{color: #ebb450;border-bottom: 2px solid #ebb450;}
+
+.wrap_recruit{background: #f4f4f4;color: #333;}
+.wrap_recruit .container{width: 1000px;margin: 0 auto;}
+.wrap_recruit .reTitle{height: 24px;width:100%;line-height: 24px;padding-left: 20px;border-left: 10px solid #ebb450;font-size: 18px;margin: 20px 0;}
+.wrap_recruit .reBtn{height: 40px;width:200px;line-height: 40px;padding-left: 50px;font-size: 20px;}
+.wrap_recruit .reBtn1{background: url(../images/recruit/reBtn01.png) no-repeat 0 5px;}
+.wrap_recruit .reBtn2{background: url(../images/recruit/reBtn01.png) no-repeat;}
+.wrap_recruit .reBtn3{background: url(../images/recruit/reBtn01.png) no-repeat;}
+.wrap_recruit .reBtn4{background: url(../images/recruit/reBtn02.png) no-repeat;}
+.wrap_recruit .reBtn5{background: url(../images/recruit/reBtn02.png) no-repeat;}
+.reA ,.reBtn ,.reTitle{float:left;}
+.reA{overflow: hidden;margin: 0;width:750px;}
+.reDetail{float: left;width: 200px;height: 45px;line-height: 45px;margin: 0 40px 20px 0;background: #fff;border: 1px solid #ebebeb;color: #333;text-align: center;font-size: 16px;}
+.reDetail:hover{color: #fff;background: #ebb450;}
+.reCont{position: relative;width: 718px;font-size: 14px;border: 1px solid #ebebeb;overflow: hidden;margin: 5px auto;background: #fff;padding: 95px 140px;}
+.reCont p{text-indent: 60px;font-size: 14px;line-height: 35px;}
+.reCont p.reward{padding-left:60px;margin-top:10px;}
+.reCont p.reward img,.reCont p.reward span{float:left;text-indent:0;}
+.reCont h2{font-size: 22px;font-weight: bold;height: 60px;line-height: 30px;}
+.reCont img.icon{position: absolute;right: 10px;bottom: 0;}
+.reCont .top{position: absolute;top: 30px;right: 20px;border: 1px solid #ebebeb;width: 100px;height: 30px;line-height: 30px;text-align: center;color: #333;}
+.reCont .top:hover{color: #fff;background: #ebb450;}

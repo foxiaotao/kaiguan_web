@@ -1,0 +1,10 @@
+html{margin: 0;padding: 0;font-family: "MIcrosoft YaHei";font-size: 100px;}
+a,ul,li,span,input{display: inline-block;}
+
+.cont{width: 100%;overflow: hidden;}
+.cont h3{font-size: 0.5rem;font-weight: normal;padding-left: 10px;height: 0.8px;line-height: 0.8px;}
+.content{width: 90%;margin: 0 auto;background: url(../images/helpcenter/titledot.png) repeat-y;}
+.content p{margin: 0;padding-left: 60px;height: 82px;line-height: 82px;font-size: 42px;}
+.content a{font-size: 42px;line-height: 82px;color: #666;text-decoration: none;}
+.introduce{width: 60%;margin-left: -30%;position: absolute;bottom: 1rem;left: 50%;}
+.introduce a{font-size: 0.4rem;color: #666;}

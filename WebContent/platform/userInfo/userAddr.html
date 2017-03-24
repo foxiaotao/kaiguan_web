@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育服务平台-个人中心</title>
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+	<link rel="stylesheet" href="../assets/css/server/servicemain.css">
+	<link rel="stylesheet" href="../assets/css/server/pay.css">
+	<link rel="stylesheet" href="../assets/css/user/userAddr.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+	<script src="../assets/js/jquery-1.8.2.min.js"></script>
+	<script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/diag.js"></script>
+	<script src="../assets/js/baseUrl.js"></script>
+	<script src="../assets/js/city/city.js"></script>
+	<script src="../assets/js/diagMsg/jquery.gritter.min.js"></script>
+    <script src="../assets/js/diagMsg/common.js"></script>
+	<script src="../assets/js/userInfo/userAddr.js"></script>
+	<script src="../assets/js/util/top_tool_service.js"></script>
+</head>
+<body>
+
+	<div class="wrap_addr wrap_pay">
+		<div class="banner">
+		    <div class="logo1"></div>
+		    <div class="logo2"></div>
+			<div class="tool">
+			    <a href="#" class="server on" title="产品/服务中心"></a>
+			    <a href="#" class="resetlang" title="语言中心"></a>
+			    <a href="#" class="userInfo" title="个人中心"></a>
+			    <span class="welcomeText">请登录</span>
+			    <a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<h2><a id="returnUserInfoMain" href="#">个人中心</a><span class="dot">·</span><span class="on">修改所有地址</span></h2>
+		<div class="main">
+			<div class="expressHome express">
+				<h3>家庭地址：</h3>
+				<span class="city input" id="province_userInfo"></span>
+				<span class="city input" id="city_userInfo"></span>
+				<span class="city input" id="addr_userInfo"></span>
+			    <a href="javascript:;" class="edithome"><img src="../assets/img/user/160125change.png"></a>
+				<div class="address edit" id="addr_user_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecterUser">
+						</select>
+						<select id = "citySelecterUser">
+						</select>	
+					</p>
+					<p><span>详细地址：</span><input type="text" id="addrdetail_user" class="addrdetail"></p>
+					
+					<a href="javascript:;" id="addrUserCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrUserSave" class="save on">保存</a>
+				</div>
+			</div>
+			<div class="express">
+				<h3>快递信息：</h3>
+				<div id="addrList">
+				</div>
+				<div class="address edit" id="addr_edit_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecter">
+						</select>
+						<select id = "citySelecter">
+						</select>	
+						<p><span>详细地址：</span><input type="text" id="addrdetail_edit" class="addrdetail"></p>
+						<p>
+							<span class="name">姓名：</span>
+							<input type="text" id="namedetail_edit" class="namedetail"/>
+							<span class="phoneNumber">联系电话：</span>
+							<input type="text" id="phonedetail_edit" class="phonedetail"/></br>
+							<span id="isDefaultSpanedit" class="name"><input type="checkbox" class="isDefaultaddr" name="checkbox" id="isDefault_edit"/>设置为默认地址</span>
+						</p>
+					</p>
+					<a href="javascript:;" id="addrEditCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrEditSave" class="save on">保存</a>
+				</div>
+				<div id="newAddress" class="newAddress"></div>
+				<!-- add新增地址 -->
+				<div class="address edit" id="addr_add_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecteradd">
+						</select>
+						<select id = "citySelecteradd">
+						</select>	
+						<p><span>详细地址：</span><input type="text" id="addrdetail_add" class="addrdetail"></p>
+						<p>
+							<span class="name">姓名：</span>
+							<input type="text" id="namedetail_add" class="namedetail"/>
+							<span class="phoneNumber">联系电话：</span>
+							<input type="text" id="phonedetail_add" class="phonedetail"/>
+							<span id="isDefaultSpanadd" class="name"><input type="checkbox" name="checkbox" id="isDefaultadd"/>设置为默认地址</span>
+						</p>
+					</p>
+					<a href="javascript:;" id="addrAddCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrAddSave" class="save on">保存</a>
+				</div>
+				<!-- 未登录 地址 -->
+				<div class="address edit" id="addr_null_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecternull">
+						</select>
+						<select id = "citySelecternull">
+						</select>	
+						<p><span>详细地址：</span><input type="text" id="addrdetail_null" class="addrdetail"></p>
+						<p>
+							<span class="name">姓名：</span>
+							<input type="text" id="namedetail_null" class="namedetail"/>
+							<span class="phoneNumber">联系电话：</span>
+							<input type="text" id="phonedetail_null" class="phonedetail"/>
+						</p>
+					</p>
+					<a href="javascript:;" id="addrNullCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrNullSave" class="save on">确定</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

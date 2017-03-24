@@ -1,0 +1,30 @@
+*{margin:0px;padding:0px;list-style-type:none;text-decoration: none;}
+.section{position: relative;}
+.section a{display: inline-block;font-size: 36px;text-align: center;color: #fff;font-family: Microsoft YaHei;}
+.section1{background: url(../../images/product/160316bg1.jpg) no-repeat 50%;}
+.section1 .box{margin-left: 62%;margin-top:380px;width: 550px;}
+.section1 a{width: 210px;height: 70px;border: 3px solid #fff;line-height: 70px;margin-left: 35px;}
+.section2{background: url(../../images/product/160316bg2.jpg) no-repeat 50%;}
+.section2 .box{margin-left: 53%;margin-top:300px;width: 250px;}
+.section2 a{width: 210px;height: 70px;line-height: 70px;background: url(../../images/product/160127quanquan.png)no-repeat;margin-top: 20px;}
+.section3{background: url(../../images/product/160316bg3.jpg) no-repeat 50%;}
+.section3 .box{margin-left: 53%;margin-top:300px;width: 550px;}
+.section3 p{line-height: 70px;font-size:24px;color:#fff;font-family: Microsoft YaHei;margin-left: 55px;}
+.section3 p span{color:#ffe829;font-size:36px;}
+.section3 a{font-size:32px;width: 210px;height: 50px;border: 3px solid #fff;line-height: 50px;margin-left: 35px;}
+.section3 a.a2{width: 470px;height: 50px;border: 3px solid #fff;line-height: 50px;margin: 20px 0 0 35px;}
+.section4{background: url(../../images/product/160127bg3.jpg) no-repeat 50%;}
+.section4 .box{margin-left: 25%;margin-top:430px;width: 250px;}
+.section4 a{width: 350px;height: 70px;line-height: 70px;border: 3px solid #fff;}
+.section5{background: url(../../images/product/160127bg4.jpg) no-repeat 50%;}
+#menu { margin: 0; padding: 0; position: fixed; right: 10px; top: 50%; margin-top: -142px; list-style-type: none; z-index: 70;width: 22px;}
+#menu li { float: left; margin-top: 10px; font-size: 14px;}
+#menu a { float: left;width: 22px;height: 24px;background: url(../../images/product/160127dot.png)no-repeat;}
+#menu .active a { background: url(../../images/product/160127doton.png)no-repeat;}
+
+.company_banner{position: absolute;top: 0;height: 70px;width: 1000px;left: 50%;margin-left: -500px;z-index: 999;}
+.company_banner .logo{background: url(../../images/product/company_logo.png) no-repeat;width: 168px;height: 53px;margin: 10px 40px 0 0;float: left;}
+.company_banner a{float:left;width: 86px;height: 50px;margin: 10px 20px 10px 0;color: #fff;font-size: 18px;line-height: 50px;text-align: center;font-family: Microsoft YaHei;}
+.company_banner a.service{float: right;background: url(../../images/product/company_plane.png)no-repeat 0 15px;padding-left: 30px;color: #ebb450;}
+.company_banner a.service:hover{border-bottom: none;}
+.company_banner a:hover,.company_banner a.on{color: #ebb450;border-bottom: 2px solid #ebb450;}

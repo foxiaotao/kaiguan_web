@@ -1,0 +1,13 @@
+*{margin: 0;padding: 0;font-family: "MIcrosoft YaHei";}
+ul,li,span{display: inline-block;}
+a{display: block;text-decoration: none;text-align: center;color: #fff;}
+.wrapLogin{width: 100%;height: 700px;overflow: hidden;}
+.wrapLogin img.bg{width: 100%;}
+.logo{position: absolute;top: 25%;left: 50%;width: 40%;margin-left: -20%;}
+.logo img{width: 100%;}
+.cont{position: absolute;top: 40%;left: 50%;width: 70%;margin-left: -35%;}
+.cont div{padding-left: 40px;}
+.cont div input{width: 100%;background: transparent;border: none;height: 34px;line-height: 34px;font-size: 18px;color: #fff;font-family: "MIcrosoft YaHei";}
+.cont .name{background: url(../images/login/loginname.png) no-repeat;-moz-background-size:100% 100%;background-size:100% 100%;margin: 5px 0;}
+.cont .password{background: url(../images/login/loginpassword.png) no-repeat;-moz-background-size:100% 100%;background-size:100% 100%;margin: 5px 0;}
+.cont a.ok{width: 45%;height: 30px;font-size: 20px;background: url(../images/login/loginokbtn.png) no-repeat;-moz-background-size:100% 100%;background-size:100% 100%; margin: 20px auto;}

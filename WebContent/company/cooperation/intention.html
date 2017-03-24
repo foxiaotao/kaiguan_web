@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育公司网站</title>
+	<link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+	<link rel="stylesheet" href="../assets/css/product/product.css">
+	<link rel="stylesheet" href="../assets/css/cooperation/cooperation.css">
+	<link rel="stylesheet" href="../../platform/assets/css/jquery-ui.css">
+	<link rel="stylesheet" href="../../platform/assets/css/reset.css">
+	<script src="../assets/js/jquery-1.8.3.min.js"></script>
+	
+<!-- 	local -->
+<!-- 	<script src="../../../html/platform/assets/js/baseUrl.js"></script> -->
+<!-- 	<script src="../../../html/platform/assets/js/jquery-ui-datepicker.js"></script> -->
+<!-- 	<script src="../../../html/platform/assets/js/city/city.js"></script> -->
+<!-- 	<script src="../../../html/platform/assets/js/diag.js"></script> -->
+	
+<!-- 	ngnix -->
+	<script src="../../../platform/assets/js/baseUrl.js"></script>
+	<script src="../../../platform/assets/js/jquery-ui-datepicker.js"></script>
+	<script src="../../../platform/assets/js/city/city.js"></script>
+	<script src="../../../platform/assets/js/diag.js"></script>
+	<script src="../assets/js/cooperation/intention.js"></script>
+<style>
+
+</style>
+</head>
+<body>
+	<div class="wrap_intention wrap_cooperation">
+		<div class="company_banner">
+			<div class="logo"></div>
+			<a href="../introduce/introduce.html">公司介绍</a>
+			<a href="../product/product.html">产品信息</a>
+			<a href="../cooperation/cooperation.html" class="on">市场合作</a>
+			<a href="../recruit/recruit.html">人才招聘</a>
+			<a href="javascript:;" class="service">服务中心</a>
+		</div>
+		<div class="main">
+		    <div class="table table1">
+			    <div class="icon">
+			        <img alt="" src="../assets/images/cooperation/cooperationIcon1.png">
+			        <span>您是</br>个人</span>
+			    </div>
+			    <div class="intentionInfo">
+			        <p class="p2">
+			        	<span>姓名：</span>
+			        	<input id="nameIndividual" type="text" class="inputText">
+			        </p>
+			        <p class="p2">
+			        	<span>性别：</span>
+			        	<input type="radio" name="sex" value="male" /> 男
+			            <input type="radio" name="sex" value="female" /> 女
+			        </p>
+			        <p class="p2">
+			        	<span>出生年月：</span>
+						<input id="birthdayStr" class="inputText" value="" readonly="readonly"/>
+			        </p>
+			        <p class="p2">
+			        	<span>所在省市：</span>
+			        	<select id="provinceSelecterIndividual">
+			        	</select>
+			        	<select id="citySelecterIndividual">
+			        	</select>
+			        </p>
+			        <p>
+			        	<span>联系电话：</span>
+			        	<input id="phoneIndividual" type="text" class="inputText">
+			        </p>
+			        <p>
+			        	<span>是否学生：</span>
+			        	<input type="radio" name="student" value="yes" /> 是
+			            <input type="radio" name="student" value="no" /> 否
+			        </p>
+			        <div class="studentY">
+			        	<p>
+			        		<span>学习阶段：</span>
+			        		<input type="radio" name="diplomas" value="专科" /> 专科
+			        		<input type="radio" name="diplomas" value="本科" /> 本科
+			        		<input type="radio" name="diplomas" value="硕士" /> 硕士
+			        		<input type="radio" name="diplomas" value="博士" /> 博士
+			        
+			        	</p>
+			        	<p class="p2">
+			        		<span>所在学校：</span>
+			        		<input id="schoolnameIndividual" type="text" class="inputText">
+			        	</p>
+			        	<p class="p2">
+			        		<span>毕业时间：</span>
+			        	    <input id="biyeStr" class="inputText" value="" readonly="readonly"/>
+			        	</p>
+			        </div>
+			        <div class="studentN">
+			        	<p>
+			        		<span>所在单位：</span>
+			        		<input id="unitIndividual" type="text" class="inputText">
+			        	</p>
+			        </div>
+			        <p>
+			        	<span>合作类型：</span>
+			        	<input type="checkbox" id="typecontent_Individual" value="Y" /> 内容合作
+			            <input type="checkbox" id="typeselling_Individual" value="Y" /> 销售合作
+			        </p>
+			        <div class="more">
+			        	<span>更多信息：</span>
+			        	<textarea id="morInfoIndividual"></textarea>
+			        </div>
+			    </div>
+			    <a href="javascript:;" id="submitIndividual_cancel" class="submit_cancel">返&nbsp;回</a>
+			    <a href="javascript:;" id="submitIndividual" class="submit">提&nbsp;交</a>
+		    </div>
+		    <div class="table table2">
+		        <div class="icon">
+			        <img alt="" src="../assets/images/cooperation/cooperationIcon2.png">
+			        <span>您是</br>企事业单位</span>
+			    </div>
+			    <div class="intentionInfo">
+			        <p class="p2">
+			        	<span>公司名称：</span>
+			        	<input id="cpnameCompany" type="text" class="inputText">
+			        </p>
+			        <p class="p2">
+			        	<span>所在省市：</span>
+			        	<select id="provinceSelecterCompany">
+			        	</select>
+			        	<select id="citySelecterCompany">
+			        	</select>
+			        </p>
+			        <p>
+			        	<span>公司地址：</span>
+			        	<input id="addressCompany" type="text" class="inputText">
+			        </p>
+			        <p>
+			        	<span class="longlong">营业执照注册号或统一社会信息用代码：</span>
+			        	<input id="businesslicenseCompany" type="text" class="inputText">
+			        </p>
+			        <p>
+			        	<span>联系人姓名：</span>
+			        	<input id="liaisonCompany" type="text" class="inputText">
+			        </p>
+			        <p>
+			        	<span>联系人电话：</span>
+			        	<input id="cellphoneCompany" type="text" class="inputText">
+			        </p>
+			        <p>
+			        	<span>合作类型：</span>
+			        	<input type="checkbox" id="typecontent_company" value="Y" /> 内容合作
+			            <input type="checkbox" id="typeselling_company" value="Y" /> 销售合作
+			            <input type="checkbox" id="typead_company" value="Y" /> 广告合作
+			        </p>
+			        <div class="more">
+			        	<span>更多信息：</span>
+			        	<textarea id="morinfoCompany"></textarea>
+			        </div>
+			    </div>
+			    <a href="javascript:;" id="submitCompany_cancel" class="submit_cancel">返&nbsp;回</a>
+			    <a href="javascript:;" id="submitCompany" class="submit">提&nbsp;交</a>
+		    </div>
+		    <div class="table table3">
+		         <div class="icon">
+			        <img alt="" src="../assets/images/cooperation/cooperationIcon3.png">
+			        <span>您是</br>投资人</span>
+			    </div>
+			    <div class="intentionInfo">
+			        <p class="p2">
+			        	<span>您的姓名：</span>
+			        	<input id="nameInvestor" type="text" class="inputText">
+			        </p>
+			        <p class="p2">
+			        	<span>性别：</span>
+			        	<input type="radio" name="sexInvestor" value="M" /> 男
+			            <input type="radio" name="sexInvestor" value="F" /> 女
+			        </p>
+			        <p class="p2">
+			        	<span>您的电话：</span>
+			        	<input id="cellphoneInvestor" type="text" class="inputText">
+			        </p>
+			        <p>
+			        	<span class="long">您所在的投资公司：</span>
+			        	<input id="unitInvestor" type="text" class="inputText">
+			        </p>
+			        <div class="more">
+			        	<span>更多信息：</span>
+			        	<textarea id="morinfoInvestor"></textarea>
+			        </div>
+			    </div>
+			    <a href="javascript:;" id="submitInvestor_cancel" class="submit_cancel">返&nbsp;回</a>
+			    <a href="javascript:;" id="submitInvestor" class="submit">提&nbsp;交</a>
+		    </div>
+		</div>
+		
+	</div>
+</body>
+</html>

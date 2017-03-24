@@ -1,0 +1,203 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育服务平台-产品中心</title>
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+	<link rel="stylesheet" href="../assets/css/server/service_detail.css">
+	<link rel="stylesheet" href="../assets/css/server/servicemain.css">
+	<link rel="stylesheet" href="../assets/css/public/publicStyle.css">
+	<link rel="stylesheet" href="../assets/css/server/pay.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+	<script src="../assets/js/jquery-1.8.2.min.js"></script>
+	<script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/diag.js"></script>
+	<script src="../assets/js/baseUrl.js"></script>
+	<script src="../assets/js/privilges.js"></script>
+	<script src="../assets/js/city/city.js"></script>
+	<script src="../assets/js/diagMsg/jquery.gritter.min.js"></script>
+    <script src="../assets/js/diagMsg/common.js"></script>
+	<script src="../assets/js/server/serviceOrder.js"></script>
+	<script src="../assets/js/util/top_tool_service.js"></script>
+</head>
+<body>
+
+	<div class="wrap_pay">
+		<div class="publicbanner">
+			<select name="lang" id="lang01">
+				<option value="01">开关英语</option>
+				<option value="02">开关英语</option>
+				<option value="03">开关英语</option>
+			</select>
+			<div class="tool">
+				<a href="#" class="userInfo" title="个人中心"></a>
+				<span class="welcomeText">请登录</span>
+				<a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<h2><a id="returnServiceMain" href="#">产品/服务中心</a><span class="dot">·</span><a id="returnServiceType" href="#">学习套件</a><span class="dot">·</span><span class="on">订单</span></h2>
+		<div class="main">
+			<div class="phone">
+				<h3>您的手机号：<span id="outLogin_tip">此手机号将用于注册电子账号，如您已经是网络会员，请先登录</span></h3>
+				<input type="text" id="outLogin_phone" class="phoneNumber"/>
+				<span id="inLogin_phone" class="phoneNumber">18686866688</span>
+			</div>
+			<div class="express">
+				<h3>快递信息：<span>图书快递收货信息</span></h3>
+				<div id="addrList">
+					<!-- <div class="address">
+					    <p class="addr">
+					        <a class="changeaddr"></a>
+							<span class="addr">地址：北京市北京海淀区知春路25号</span>
+							<span class="name">姓名：严嘉榕</span>
+							<span class="phoneNumber">联系电话：18686866688</span>
+						</p>
+						<a href="javascript:;" class="check on"></a>
+					</div> -->
+				</div>
+				<div class="address edit" id="addr_edit_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecter">
+						</select>
+						<select id = "citySelecter">
+						</select>	
+						<p><span>详细地址：</span><input type="text" id="addrdetail_edit" class="addrdetail"></p>
+						<p>
+							<span class="name">姓名：</span>
+							<input type="text" id="namedetail_edit" class="namedetail"/>
+							<span class="phoneNumber">联系电话：</span>
+							<input type="text" id="phonedetail_edit" class="phonedetail"/>
+							<span id="isDefaultSpan" class="name"><input id="isDefault_edit" type="checkbox" name="checkbox"/>设置为默认地址</span>
+						</p>
+					</p>
+					<a href="javascript:;" id="addrEditCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrEditSave" class="save on">保存</a>
+				</div>
+				<div id="newAddress" class="newAddress"></div>
+				<!-- add新增地址 -->
+				<div class="address edit" id="addr_add_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecteradd">
+						</select>
+						<select id = "citySelecteradd">
+						</select>	
+						<p><span>详细地址：</span><input type="text" id="addrdetail_add" class="addrdetail"></p>
+						<p>
+							<span class="name">姓名：</span>
+							<input type="text" id="namedetail_add" class="namedetail"/>
+							<span class="phoneNumber">联系电话：</span>
+							<input type="text" id="phonedetail_add" class="phonedetail"/>
+							<span id="isDefaultSpanadd" class="name"><input type="checkbox" name="checkbox" id="isDefaultadd" checked=""/>设置为默认地址</span>
+						</p>
+					</p>
+					<a href="javascript:;" id="addrAddCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrAddSave" class="save on">保存</a>
+				</div>
+				<!-- 未登录 地址 -->
+				<div class="address edit" id="addr_null_div">
+					<p class="addr">
+						<span class="addr">地址：</span>
+						<select id = "provinceSelecternull">
+						</select>
+						<select id = "citySelecternull">
+						</select>	
+						<p><span>详细地址：</span><input type="text" id="addrdetail_null" class="addrdetail"></p>
+						<p>
+							<span class="name">姓名：</span>
+							<input type="text" id="namedetail_null" class="namedetail"/>
+							<span class="phoneNumber">联系电话：</span>
+							<input type="text" id="phonedetail_null" class="phonedetail"/>
+						</p>
+					</p>
+					<a href="javascript:;" id="addrNullCancel" class="cancel on">取消</a>
+					<a href="javascript:;" id="addrNullSave" class="save on">确定</a>
+				</div>
+			</div>
+			<div class="pay">
+				<h3>支付方式：</h3>
+				<table class="payment">
+					<tbody>
+<!-- 						<tr height='65'> -->
+<!-- 							<td width='45'><img src="../assets/img/server/balancepay.png" alt=""></td> -->
+<!-- 							<td width='815'>账户余额（可用余额<span id="balance">0</span>元）</td> -->
+<!-- 							<td width='70'><a href="javascript:;" id="paymethod_0" class="check paymethod"></a></td> -->
+<!-- 						</tr> -->
+						<tr height='65'>
+							<td width='45'><img src="../assets/img/server/paypal.png" alt=""></td>
+							<td width='815'>支付宝支付</td>
+							<td width='70'><a href="javascript:;" id="paymethod_1" class="check on paymethod"></a></td>
+						</tr>
+<!-- 						<tr height='65'>
+							<td width='45'><img src="../assets/img/server/wechatpay.png" alt=""></td>
+							<td width='815'>微信支付</td>
+							<td width='70'><a href="javascript:;" id="paymethod_2" class="check paymethod"></a></td>
+						</tr>
+						<tr height='65'>
+							<td width='45'><img src="../assets/img/server/unionpay.png" alt=""></td>
+							<td width='815'>银联卡支付</td>
+							<td width='70'><a href="javascript:;" id="paymethod_3" class="check paymethod"></a></td>
+						</tr> -->
+					</tbody>
+				</table>
+				<p class="right">您所购买的产品名称：
+			    	<span id="product_name_id" class="name">XXX</span>
+				合计
+					<span class="sum">0</span>元
+					<a href="javascript:;" id="paySubmit" class="pay">支&nbsp;&nbsp;付</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<form name=alipayment action=alipayapi.jsp method=post target="_blank" style="display:none">
+			<input size="30" name="uid" />
+            <div id="body" style="clear:left">
+					<dt>卖家支付宝帐户：</dt>
+					<dd>
+						<span class="null-star">*</span>
+						<input size="30" name="WIDseller_email" />
+						<span>必填</span>
+					</dd>
+					<dt>商户订单号：</dt>
+					<dd>
+						<span class="null-star">*</span>
+						<input size="30" name="WIDout_trade_no" />
+						<span>商户网站订单系统中唯一订单号，必填</span>
+					</dd>
+					<dt>订单名称：</dt>
+					<dd>
+						<span class="null-star">*</span>
+						<input size="30" name="WIDsubject" />
+						<span>必填</span>
+					</dd>
+					<dt>付款金额：</dt>
+					<dd>
+						<span class="null-star">*</span>
+						<input size="30" name="WIDtotal_fee" />
+						<span>必填</span>
+					</dd>
+					<dt>订单描述：</dt>
+					<dd>
+						<span class="null-star">*</span>
+						<input size="30" name="WIDbody" />
+						<span></span>
+					</dd>
+					<dt>商品展示地址：</dt>
+					<dd>
+						<span class="null-star">*</span>
+						<input size="30" name="WIDshow_url" />
+						<span>需以http://开头的完整路径，例如：http://www.xxx.com/myorder.html</span>
+					</dd>
+                    <dt></dt>
+                    <dd>
+                        <span class="new-btn-login-sp">
+                            <button class="new-btn-login" type="submit" style="text-align:center;">确 认</button>
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+		</form>
+</body>
+</html>

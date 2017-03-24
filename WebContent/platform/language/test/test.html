@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>开关教育服务平台-语言中心</title>
+<link rel="stylesheet" href="../../assets/css/test/test.css">
+<script src="../../assets/js/jquery-1.8.2.min.js"></script>
+<script src="../../assets/js/jquery.tabslet.min.js"></script>
+<script src="../../assets/js/baseUrl.js"></script>
+<!-- <script src="../../assets/js/jquery-1.8.2.min.js"></script> -->
+<script>
+$(function(){
+	$('.tabs').tabslet({
+		animation: true,
+		controls: {
+			prev: '.prev',
+			next: '.next'
+		}
+	});
+	
+	$("#resourcetable").click(function () {//资源
+		window.location.href = learnEng_html;
+	});
+	$("#lenEntable").click(function () {
+        window.location.href = learnEng_html;
+    });
+});
+</script>
+</head>
+
+<body>
+	<div class="wrap_test">
+	    <div class="banner">
+	        <div class="bannerInfo_Back">
+				<span id="resourcetable" style="cursor:pointer">语言中心</span> > 
+				<span id="lenEntable" style="cursor:pointer">学英语</span> >
+				<span id="basetable" style="cursor:pointer">考试篇</span>
+			</div>
+		</div>
+		
+			
+		<div class="tabs">
+			<a href="javascript:" class="prev" title="上一届">&lt;</a> <a href="javascript:" class="next" title="下一届">&gt;</a>
+			<ul class="tabNav">
+						
+				<li class="first"><a href="#tab-1">
+					<strong><em>中考、高考、四级、六级</em></strong>
+					<b></b><i></i>
+					<span class="year"> -国内考试- </span>
+				</a></li>
+				<li><a href="#tab-2">
+					<strong><em>托福、雅思、GRE、GMAT</em></strong>
+					<b></b><i></i>
+					<span class="year"> -出国留学- </span>
+				</a></li>
+				
+			</ul>
+
+			<div class="tabPane" id="tab-1">
+				<div class="info">
+					<h3>国内考试</h3>
+					<p>开关教育将依靠自身的创新以及携手第三方合作伙伴，为大家的英语考试提供有效的帮助。</p>
+				</div>
+				<div class="img">
+					<ul>
+						<li class="odd"><a href="JavaScript:;">
+							<h4>考研</h4>
+							<img src="../../assets/img/test/test1.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每年12月份</h5>
+									<p>提供考研的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+						<li class="even"><a href="JavaScript:;">
+							<h4>高考</h4>
+							<img src="../../assets/img/test/test2.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每年多次会考</h5>
+									<p>提供高考的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+						<li class="odd"><a href="cet6.html">
+							<h4>英语六级</h4>
+							<img src="../../assets/img/test/test3.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每年的6/12月份</h5>
+									<p>提供英语六级CET-6的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+						<li class="even"><a href="cet4.html">
+							<h4>英语四级</h4>
+							<img src="../../assets/img/test/test4.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每年的6/12月份</h5>
+									<p>提供英语四级CET-4的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="tabPane" class="tabPane" id="tab-2">
+				<div class="info">
+					<h3>出国留学</h3>
+					<p>开关教育将携手国内外优秀的合作伙伴，为大家的留学英语考试提供有效的帮助。</p>
+				</div>
+				<div class="img">
+					<ul>
+						<li class="odd"><a href="JavaScript:;">
+							<h4>GRE</h4>
+							<img src="../../assets/img/test/test5.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每个月提供2-3次考试机会</h5>
+									<p>GRE是"美国研究生入学考试"，适用于除法律与商业外的各专业，由美国教育考试服务中心（Educational Testing Service，简称ETS)主办。我们将提供GRE的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+						<li class="even"><a href="JavaScript:;">
+							<h4>托福</h4>
+							<img src="../../assets/img/test/test6.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每个月提供多次考试机会</h5>
+									<p>托福是"检定非英语为母语者的英语能力考试"，是由美国教育测验服务社（ETS）举办的英语能力考试，考试成绩有效期两年。我们将提供Tofel的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+						<li class="odd"><a href="JavaScript:;">
+							<h4>GMAT</h4>
+							<img src="../../assets/img/test/test7.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每个月提供多次考试机会</h5>
+									<p>托福是"研究生经济管理入学考试"，是由美国经企管理专业研究生入学考试委员会（GMAC）委托美国教育考试服务中心（ETS）主办，我们将提供GMAT的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+						<li class="even"><a href="JavaScript:;">
+							<h4>雅思</h4>
+							<img src="../../assets/img/test/test8.jpg" alt="">
+							<div class="txtOut">
+								<div class="txt">
+									<h5>每个月提供多次考试机会</h5>
+									<p>雅思是"国际英语能力测试考试(International English Language Testing System)"，由剑桥大学考试委员会外语考试部等主办，是一种为打算到使用英语的国家学习、工作或定居的人所设置的英语水平考试。我们将提供雅思的考试要点、考题分析、名师讲堂、模拟测试等</p>
+								</div>
+							</div>
+						</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

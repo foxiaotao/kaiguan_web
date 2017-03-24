@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育服务平台-产品中心</title>
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+	<link rel="stylesheet" href="../assets/css/server/service_detail.css">
+	<link rel="stylesheet" href="../assets/css/public/publicStyle.css">
+	<link rel="stylesheet" href="../assets/css/server/servicemain.css">
+	<script src="../assets/js/jquery-1.8.2.min.js"></script>
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/baseUrl.js"></script>
+    <script src="../assets/js/server/service_detail_001002x1_IwantBuy.js"></script>
+	<script src="../assets/js/util/service_nav.js"></script>
+	<script src="../assets/js/util/top_tool_service.js"></script>
+	<script type='text/javascript' src='../assets/js/jquery.easing.min.js?ver=2.8'></script>
+	<script type='text/javascript' src='../assets/js/server/loopedSlider.js?ver=2.8'></script>
+</head>
+<body>
+	<div class="wrap_servicedetail wrap_membership">
+		<div class="publicbanner">
+			<select name="lang" id="lang01">
+				<option value="01">开关英语</option>
+				<option value="02">开关英语</option>
+				<option value="03">开关英语</option>
+			</select>
+			<div class="tool">
+				<a href="#" class="userInfo" title="个人中心"></a>
+				<span class="welcomeText">请登录</span>
+				<a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<div class="link">
+		    <span id="nav_net_serviceCenter">产品/服务中心</span>
+		    <span class="dot">·</span>
+			<span id="nav_net_net">网络会员</span>
+<!-- 			<span class="dot">·</span> -->
+<!-- 			<span id="nav_net_detail" class="on">开关英语 &nbsp;网络会员</span> -->
+<!-- 			<span class="dot">·</span> -->
+<!-- 			<span id="link04" class="orange">网络会员01</span> -->
+		</div>
+		<div class="main">
+			<h2 class="orange">开关英语 &nbsp;网络会员</h2>
+			<div class="header">
+				<p> 在电脑/手机上，可随时随地看一看、听一听、搜一搜、记一记。还可以做到基本不耗流量哦。</p>
+				<a id="IwantBuyNet" href="./serviceOrder.html" class="buy">我要购买</a>
+			</div>
+			<div class="cont">
+			    <h3>手机<a href="#" class="detail">APP功能介绍>></a></h3>
+				<img src="../assets/img/server/160113phone1.png" onclick="thisshow()">
+				<p> 手机APP语言中心的<首页>，在这里可以进入基础篇、场景篇、专业篇、考试篇、语法篇、在线专题的学习和掌握中。其中基础篇是和书本一一对应。</p>
+				<img src="../assets/img/server/160113phone2.png" onclick="thisshow()">
+				<p> <索引页> 例如在基础篇的索引页，可以看到和书本一样的目录。</p>
+				<img src="../assets/img/server/160113phone3.png" onclick="thisshow()">
+				<p> <模块页>，例如在基础篇的模块页，你可以看到和书本每个小节相对应的摘要、扩展的内容（书上所没有的内容）、解析、语音、个人笔记。</p>
+				<img src="../assets/img/server/160113phone4.png" onclick="thisshow()">
+				<p> <语音模块页>，这里你可以听一听书本每个小节的音频。</p>
+				<img src="../assets/img/server/160113phone5.png" onclick="thisshow()">
+				<p> <搜索页>，在这里你可以根据中文或英文关键字来进行搜索。</p>
+				<img src="../assets/img/server/160113phone6.png" onclick="thisshow()">
+				<p> <在线专题页>，在这里你可以看到各种各样的专题，如英语中"加油"怎么说、"各种牛"的相关表达等。</p>
+			</div>
+			<div class="cont contpc">
+				<h3>电脑<a href="#" class="detail">网站功能介绍>></a></h3>
+				<img src="../assets/img/server/160113pc1.png" class="pc" onclick="thisshow()">
+				<p> 服务平台语言中心的<首页>，在这里可以进入基础篇、场景篇、专业篇、考试篇、语法篇、在线专题的学习和掌握中。其中基础篇是和书本一一对应。</p>
+				<p> 服务平台语言中心的<模块页>，例如在基础篇的模块页，你可以看到和书本每个小节相对应的摘要、扩展的内容（书上所没有的内容）、解析、语音、个人笔记。</p>
+				<img src="../assets/img/server/160113pc2.png" class="pc1" onclick="thisshow()">
+			</div>
+			<div class="popupbox">
+		    <div class="xuanchuan">
+		        <a href="javascript:;" class="closeA" onclick="thishide()"><img alt="" src="../assets/img/server/160328close.png"></a>
+				<ul class="nav-buttons">
+					<li class="p">
+						<a href="#" class="previous"></a>
+					</li>
+					<li class="n">
+						<a href="#" class="next"></a>
+					</li>
+				</ul>
+				<div class="container">
+					<div class="slide" id="slide-1">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc1.png">
+					</div>
+					<div class="slide" id="slide-2">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc2.png">
+					</div>
+					<div class="slide" id="slide-3">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc3.png">
+					</div>
+					<div class="slide" id="slide-4">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc4.png">
+					</div>
+					<div class="slide" id="slide-5">
+						<img alt="目录" class="text" src="../assets/img/server/160419app1.png">
+					</div>
+					<div class="slide" id="slide-6">
+						<img alt="目录" class="text" src="../assets/img/server/160419app2.png">
+					</div>
+					<div class="slide" id="slide-7">
+						<img alt="目录" class="text" src="../assets/img/server/160419app3.png">
+					</div>
+					<div class="slide" id="slide-8">
+						<img alt="目录" class="text" src="../assets/img/server/160419app4.png">
+					</div>
+					<div class="slide" id="slide-9">
+						<img alt="目录" class="text" src="../assets/img/server/160419app5.png">
+					</div>
+					<div class="slide" id="slide-10">
+						<img alt="目录" class="text" src="../assets/img/server/160419app6.png">
+					</div>
+				</div>
+			</div>	
+		</div>    
+		</div>
+		<div class="footer">
+			<p>www.getwant.com<br>那些年，我们一起学过的英语！</p>
+		</div>
+	</div>
+	<script>
+	function thisshow(){
+		$('.popupbox').show();
+	}
+	function thishide(){
+		$('.popupbox').hide();
+	}
+	</script>
+</body>
+</html>

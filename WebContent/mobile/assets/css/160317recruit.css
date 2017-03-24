@@ -1,0 +1,30 @@
+*{font-family: "Microsoft YaHei";font-size: 12px;text-decoration: none;margin: 0;padding: 0;}
+.gray{color: #ccc;}
+.right{text-align: right;}
+
+.cont .title{font-size: 20px;}
+.cont span{display: inline-block;width: 95%;line-height: 30px;padding-left: 3%;}
+.cont a{display: block;width: 95%;overflow: hidden;margin: 10px auto;}
+.wrapRecruit01{color: #aabdff;}
+.wrapRecruit01 a{color: #aabdff;border: 2px solid #aabdff;}
+.wrapRecruit01 .cont{overflow: hidden;background: url(../images/recruit/160314recruit1.jpg)no-repeat;background-size: 100% 100%;position: relative;}
+.wrapRecruit01 .content{border: 2px solid #aabdff;}
+.content{width: 80%;height: 80%;padding: 5%;margin: 20px auto;position: relative;}
+.content span.title{padding: 0;line-height: 60px;}
+.content p{line-height: 40px;}
+a.backtop{color: #ccc;position: absolute;right: 10px;top: 0px;width: 60px;height: 20px;line-height: 20px;border:none;text-align: center;}
+
+.wrapRecruit02{color: #21fbdc;}
+.wrapRecruit02 a{color: #21fbdc;border: 2px solid #21fbdc;}
+.wrapRecruit02 .cont{overflow: hidden;background: url(../images/recruit/160314recruit2.jpg)no-repeat;background-size: 100% 100%;position: relative;}
+.wrapRecruit02 .content{border: 2px solid #21fbdc;}
+
+.wrapRecruit03{color: #f87746;}
+.wrapRecruit03 a{color: #f87746;border: 2px solid #f87746;}
+.wrapRecruit03 .cont{overflow: hidden;background: url(../images/recruit/160314recruit3.jpg)no-repeat;background-size: 100% 100%;position: relative;}
+.wrapRecruit03 .content{border: 2px solid #f87746;}
+
+.wrapRecruit04{color: #c190fc;}
+.wrapRecruit04 a{color: #c190fc;border: 2px solid #c190fc;}
+.wrapRecruit04 .cont{overflow: hidden;background: url(../images/recruit/160314recruit4.jpg)no-repeat;background-size: 100% 100%;position: relative;}
+.wrapRecruit04 .content{border: 2px solid #c190fc;}

@@ -1,0 +1,5 @@
+*{padding:0;margin:0;font-size:"Microsoft YaHei";color:#fff;}
+.wrap{width:100%;overflow:hidden;}
+.wrap img.bg{width:100%;}
+.wrap span{display:block;width:300px;font-size:30px;font-weight:bold;position:absolute;top:30%;left:50%;margin-left:-150px;text-align:center;}
+.wrap span.bottom{top:60%;}

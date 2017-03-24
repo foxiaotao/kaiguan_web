@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul,li,h1,h2,h3,h4,span,a{display: inline-block;list-style: none;font-family: "LiSu";font-size: 20px;color: #fff;}
+.wrap_userinfo{background: url(../../img/user/userinfobg.png) no-repeat 50%;text-align:left;}
+.wrap_userinfo .main{width: 1200px;margin: 0 auto;padding: 58px 0;}
+.wrap_userinfo .main .orange{color: #eeb450;}
+.wrap_userinfo .header{height: 120px;text-align: center;}
+.wrap_userinfo .header h2{height: 120px;line-height: 120px;font-size: 40px;width: 180px;margin: 0 auto;}
+
+.wrap_userinfo .tab_cont{overflow: hidden;}
+.wrap_userinfo .tabs{width: 175px;float: left;}
+.wrap_userinfo .tab_cont ul,.tab_cont li{overflow: hidden;}
+.wrap_userinfo .tab_cont ul li a{text-align: center;height: 80px;width: 116px;margin-bottom:20px;padding-top: 36px;background: url(../../img/user/160111abg.png) repeat;}
+.wrap_userinfo .tab_cont ul li.on a{border: 2px solid #fff;margin-bottom: 16px;}
+.wrap_userinfo .tab_cont ul li a span{font-weight: bold;font-size: 14px;font-family: "Microsoft YaHei";}
+.wrap_userinfo .tab_cont p{color: #fff;font-weight: bold;padding-left: 20px;line-height: 40px;height: 40px;font-family:"LiSu";}
+.wrap_userinfo .content{float: left;width: 900px;padding: 35px 0 0 45px;border-top: 2px solid #fff;border-left: 2px solid #fff;min-height: 500px;position: relative;}
+.wrap_userinfo .content a.edit{position: absolute;top: 20px;right: 0;display: none;}
+.wrap_userinfo .content a.edit.on{display: inline-block;}
+a#cancel{right: 50px;}
+.wrap_userinfo .content h3{font-size: 24px;}
+.wrap_userinfo .content input{background: transparent;border: none;height: 30px;color: #fff;}
+.wrap_userinfo .content span.tips{color: #8e8e8e;font-size: 14px;}
+
+/*first part*/
+#tab1 input{display: none;border-bottom: 1px solid #fff;font-size:20px;}
+#tab1 span.inputTitle{width: 120px;}
+#tab1 span.edit a{margin:0 10px;text-align:center;color:#ebb450;}
+#tab1 span.edit a.cancel,#tab1 span.edit a.save{display:none;}
+/*second part*/
+.coupon{font-size: 18px;position: relative;width: 855px;height: 85px;margin: 10px 0 0 20px;background: url(../../img/user/160111coupon.png) no-repeat;}
+.coupon span{padding-top: 22px;width: 600px;padding-left: 30px;}
+#tab2 p{height: 50px;}
+#tab2 p a{display: inline-block;float: right;width: 91px;height: 31px;line-height: 30px;text-align: center;background: url(../../img/user/160111ellipse.png) no-repeat;margin: 10px 5px 0 5px;}
+span#balance{height: 55px;font-size: 30px;}
+span.coupon_use{width: 100px;position: absolute;right: 0;top: 25px;padding-top: 10px;}
+span.coupon_date{font-size: 14px;padding-top: 10px;}
+
+/*third part*/
+#tab3 p{height: 50px;}
+span#sortage{font-size: 30px;}
+
+/*fourth part*/
+#tab4 p{width: 430px;}
+p.center{text-align: center;padding-top: 20px;}
+.wrap_userinfo .content input.password{border-bottom: 1px solid #fff;width: 230px;}
+#tab4 a{color: #fff;display: inline-block;width: 91px;height: 31px;line-height: 30px;text-align: center;background: url(../../img/user/160111ellipse.png) no-repeat;margin: 10px 5px 0 5px;}

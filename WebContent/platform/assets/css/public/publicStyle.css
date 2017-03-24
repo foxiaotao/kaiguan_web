@@ -1,0 +1,196 @@
+*{padding: 0;margin: 0;font-family: "Microsoft Yahei";text-decoration: none;}
+ul,li{display: inline-block;}
+input,select{border: none;outline: none;}
+
+/* publicbanner */
+.publicbanner{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	height: 30px;
+	padding: 10px 0;
+	overflow: hidden;
+	font-size: 16px;
+}
+.publicbanner select{
+	margin-left: 30px;
+	background: transparent;
+	border:none;
+	width: 100px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+}
+.publicbanner select option{
+	color:#000;
+	border:none;
+	font-size: 16px;
+}
+.publicbanner .tool{
+	float: right;
+	margin-right: 30px;
+	overflow: hidden;
+	color: #000;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+}
+.publicbanner .tool a{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+.publicbanner .tool a.userInfo{
+	background: url(http://static.getwant.com/staticpool/assets/img/public/publicBlackuserInfo.png) no-repeat;
+	background-size: 100% 100%;
+}
+.publicbanner .tool a.logout{
+	background: url(http://static.getwant.com/staticpool/assets/img/public/publicBlacklogout.png) no-repeat;
+	background-size: 100% 100%;
+}
+.publicbanner.white select,.publicbanner.white span{color:#fff;}
+.publicbanner.white .tool a.userInfo{
+	background: url(http://static.getwant.com/staticpool/assets/img/public/publicWhiteuserInfo.png) no-repeat;
+	background-size: 100% 100%;
+}
+.publicbanner.white .tool a.logout{
+	background: url(http://static.getwant.com/staticpool/assets/img/public/publicWhitelogout.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+/* public header */
+.publicheader{
+	height: 280px;
+	width: 100%;
+	background:  url(http://static.getwant.com/staticpool/assets/img/public/publicHeader.png) no-repeat 50% 50%;
+	background-size: 100% 100%;
+}
+
+
+/* header */
+
+.header a{
+	color: #fff;
+	text-align: center;
+}
+.header .htop{
+	width: 1000px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -500px;
+}
+.header .htop img.logo{
+	width: 420px;
+}
+.header .htop .search{
+	float: right;
+	overflow: hidden;
+	position: relative;
+	background: url(http://static.getwant.com/staticpool/assets/img/public/160425search.png) no-repeat;
+	background-size: 100% 100%;
+}
+.header .htop .search a{
+	width: 60px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.header .htop input{
+	background: transparent;
+	padding: 10px 60px 10px 20px;
+	width: 220px;
+	height: 20px;
+}
+.xnav{
+	margin-top: 20px;
+}
+.nav li.on a{
+	background: #ebb450;
+}
+.nli{
+	position: relative;
+}
+.nli a.title{
+	line-height: 20px;
+	padding-top: 10px;
+	font-size: 20px;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	background: url(http://static.getwant.com/staticpool/assets/img/public/160425abg.png) repeat;
+}
+.nli a.title:hover,.nli a.title.ON{
+	background: #ebb450;
+}
+.nli a span{
+	display: inline-block;
+	width: 100%;
+	font-size: 16px;
+	line-height: 20px;
+}
+.nli .sub{
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
+.sub li{
+	height: 40px;
+	margin: 2px 0;
+}
+.sub li a{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	background: #ebb450;
+	line-height: 40px;
+}
+.sub{display: none;}
+
+
+/* footer */
+.publicfooter{
+	width: 100%;
+	height: 330px;
+	font-size: 14px;
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+	margin-top: 30px;
+}
+.orangeline{
+	width: 100%;
+	color: #ebb450;
+	margin: 10px 0;
+	font-size: 20px;
+	line-height: 40px;
+	border-bottom: 1px solid #ebb450;
+}
+.footerLink,.friendltyLink{
+	margin: 0 auto;
+}
+.footerLink a{
+	color: #000;
+	margin: 0 10px;
+}
+.footerLink a:hover{
+	color: #ebb450;
+}
+.friendltyLink a{
+	color: #666;
+	margin: 0 10px;
+}
+.friendltyLink a:hover{
+	color: #ebb450;
+	text-decoration: underline;
+}
+h2 span.orange{width:auto;}
+span.orange{
+	display: inline-block;
+	width: 100%;
+	color: #ebb450;
+}

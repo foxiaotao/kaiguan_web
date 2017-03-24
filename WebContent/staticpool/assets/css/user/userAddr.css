@@ -1,0 +1,14 @@
+.wrap_addr *{font-family:"Microsoft YaHei";}
+.wrap_addr span.welcomeText{font-size:14px;}
+.expressHome *,.express *{font-size:16px;}
+.wrap_pay.wrap_addr .address p{line-height:50px;}
+.wrap_pay.wrap_addr .address p span{font-size: 16px;height:50px;}
+.wrap_pay.wrap_addr h3{line-height: 55px;font-weight:normal;color:#ebb450;display:inline-block;font-size:20px;}
+a.edithome{display:inline-block;padding:0 10px;}
+.wrap_pay.wrap_addr h2 a,.wrap_pay.wrap_addr h2 span{font-size:20px;}
+.wrap_addr a.delete{position: absolute;top:20px;right: 10px;height: 29px;width: 22px;background: url(../../img/user/delete.png) no-repeat;}
+.wrap_addr a.check.on{right: 70px;}
+.isDefaultaddr{width:60px;}
+#isDefault_edit{width:60px;}
+.addr span,.addr span{line-height:30px;height:30px;}
+.wrap_pay.wrap_addr .main{min-height:490px;_height:490px;}

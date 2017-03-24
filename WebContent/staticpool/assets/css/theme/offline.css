@@ -1,0 +1,12 @@
+.wrap_theme.offline .main{min-height: 400px;}
+.wrap_theme.offline a.trainLink{width: 890px;border: 2px solid #fff;margin: 10px 0;position:relative;}
+.wrap_theme.offline a.trainLink img{width: 100%;}
+.wrap_theme.offline a.trainLink h4{width: 100%;height:50px;position:absolute;bottom:0;text-align:left;line-height:50px;}
+.wrap_theme.offline a.trainLink h4 span{text-align:left;font-size:30px;}
+.wrap_theme.offline a.trainLink h4 span.date{text-align:left;font-size:18px;float:right;font-family:"Microsoft YaHei";}
+@media (max-width: 960px) {
+    .wrap_theme.offline a.trainLink{width:95%;height:auto;}
+    .wrap_theme.offline a.trainLink h4{height:30px;line-height:30px;}
+    .wrap_theme.offline a.trainLink h4 span{font-size:16px;}
+    .wrap_theme.offline a.trainLink h4 span.date{font-size:12px;line-height:40px;}
+}

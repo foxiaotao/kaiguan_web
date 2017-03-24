@@ -1,0 +1,10 @@
+*{font-family: "Microsoft YaHei";font-size: 14px;color: #000;margin: 0;padding: 0;}
+
+.wrap{padding: 5px;}
+.banner{width: 100%;overflow: hidden;}
+.cont{width: 90%;margin: 5px auto 20px auto;}
+.cont h2{width: 100%;font-size: 16px;font-weight: normal;line-height: 24px;padding: 50px 0 10px 0;}
+.contp p{text-indent: 2em;}
+.cont h2.title1{background: url(../images/company/160317title01.png) no-repeat;background-size: 100% auto;}
+.cont h2.title2{background: url(../images/company/160317title02.png) no-repeat;background-size: 100% auto;}
+.cont h2.title3{background: url(../images/company/160317title03.png) no-repeat;background-size: 100% auto;}

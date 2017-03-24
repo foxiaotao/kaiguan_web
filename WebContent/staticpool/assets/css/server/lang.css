@@ -1,0 +1,55 @@
+body,html{width:100%;height:100%}
+.banner{width:100%;height:57px;background:url(../img/lang/lang_main_bk1.png)}
+.banner .logo{position:absolute;left:0;top:0;width:300px;height:57px;background:url(../img/lang/logo.png)}
+.banner .welcome{float:right;margin-right:40px;margin-top:10px;line-height:40px}
+.banner .welcome img{float:right;}
+.banner .welcome .welcomeText{float:right;font-size:14px;margin-left:10px;}
+.banner .tool{float:right;margin-right:150px;padding:10px}
+.banner .tool .toolItem{float:left;margin-right:20px;width:38px;height:38px;cursor:pointer}
+.banner .tool .server{background:url(../img/server/server.png) no-repeat}
+.banner .tool .home{background:url(../img/lang/lang_main_01.png) no-repeat}
+.banner .tool .resetlang{background:url(../img/lang/lang_main_02.png) no-repeat}
+.banner .tool .logout{background:url(../img/lang/lang_main_03.png) no-repeat}
+.menuLeft{position:absolute;top:57px;width:180px;height:100%;background-color:#3696db;color:#fff;text-align:left}
+.menuLeft .head{margin-top:10px;margin-left:25px;height:40px;font-size:20px;line-height:40px}
+.menuLeft .line{margin-bottom:10px;margin-left:5px;width:170px;height:2px;background-color:#80b5e5}
+.menuLeft>ul{width:180px}
+.menuLeft>ul *{list-style:none}
+.menuLeft ul li.selected a{background-color:#f3f54c;color:#000;font-size:1pc}
+.menuLeft ul li a{display:block;margin:0;width:180px;height:40px;color:#fff;text-align:left;text-decoration:none;font-size:9pt;line-height:40px}
+.menuLeft ul li a span{margin-left:8px}
+.menuLeft li .arrow.two{float:left;display:block;margin-top:1pc;margin-right:10px;margin-left:24px;width:8px;height:8px;background:no-repeat center;background-image:url(../img/lang/lang_main_12.png)}
+.menuLeft ul li.selected .arrow.two{background-image:url(../img/lang/lang_main_11.png)}
+.mainFrame{position:absolute;top:57px;left:180px;border:0;height:100%;}
+.title{float:left;width:150px;height:90px;color:#000;font-size:30px;line-height:90px}
+.userInfo{float:left;width:250px;height:90px;color:#000;font-size:30px;line-height:90px}
+.title img{float:left;margin-top:38px;margin-left:20px}
+.titleImg{position:absolute;right:0;z-index:-1;width:1055px;height:10pc}
+.wrapper{position:absolute;top:10pc;width:100%}
+.content{margin:0 auto;width:60pc;background-color:#000}
+.column{float:left;width:20%}
+.add{position:relative;left:0;width:125px;height:125px;cursor:pointer}
+.add1{top:75pt;background:url(../img/lang/lang_main_x1.png) no-repeat}
+.add2{top:60px;background:url(../img/lang/lang_main_x2.png) no-repeat}
+.add3{top:20px;background:url(../img/lang/lang_main_x3.png) no-repeat}
+.navBlock{position:relative;width:190px;height:99pt;cursor:pointer}
+.nav1{top:140px;background:url(../img/lang/lang_main_f1.png) no-repeat}
+.nav2{top:75pt;background:url(../img/lang/lang_main_f2.png) no-repeat}
+.nav3{top:60px;background:url(../img/lang/lang_main_f3.png) no-repeat}
+.nav4{top:90pt;background:url(../img/lang/lang_main_f4.png) no-repeat}
+.nav5{top:60px;background:url(../img/lang/lang_main_f5.png) no-repeat}
+.attach{position:absolute;right:0;bottom:0;z-index:-1;width:369px;height:356px;background:url(../img/lang/lang_main_bk3.png) right bottom no-repeat}
+
+
+/* 
+body,html{width:100%;height:100%}
+.banner{width:100%;height:57px;background:url(../img/lang/lang_main_bk1.png)}
+.banner .logo{position:absolute;left:0;top:0;width:300px;height:57px;background:url(../img/lang/logo.png)}
+.banner .welcome{float:right;margin-right:150px;margin-top:10px;line-height:40px}
+.banner .welcome img{float:right;}
+.banner .tool .toolItem0{float:left;margin-right:20px;width:38px;height:38px;cursor:pointer}
+.banner .welcome .logout{float:right;background:url(../img/lang/lang_main_03.png) no-repeat}
+.banner .welcome .home{float:right;background:url(../img/lang/lang_main_01.png) no-repeat}
+
+
+

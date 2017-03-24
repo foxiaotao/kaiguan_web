@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育服务平台-产品中心</title>
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+	<link rel="stylesheet" href="../assets/css/server/service_detail.css">
+	<link rel="stylesheet" href="../assets/css/server/servicemain.css">
+	<link rel="stylesheet" href="../assets/css/public/publicStyle.css">
+	<script src="../assets/js/jquery-1.8.2.min.js"></script>
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/baseUrl.js"></script>
+    <script src="../assets/js/server/service_detail_001002x1_IwantBuy.js"></script>
+	<script src="../assets/js/util/service_nav.js"></script>
+	<script src="../assets/js/util/top_tool_service.js"></script>
+	<script type='text/javascript' src='../assets/js/jquery.easing.min.js?ver=2.8'></script>
+	<script type='text/javascript' src='../assets/js/server/loopedSlider.js?ver=2.8'></script>
+</head>
+<body>
+	<div class="wrap_servicedetail wrap_book">
+		<div class="publicbanner">
+			<select name="lang" id="lang01">
+				<option value="01">开关英语</option>
+				<option value="02">开关英语</option>
+				<option value="03">开关英语</option>
+			</select>
+			<div class="tool">
+				<a href="#" class="userInfo" title="个人中心"></a>
+				<span class="welcomeText">请登录</span>
+				<a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<div class="link">
+		    <span id="nav_book_serviceCenter">产品/服务中心</span>
+		    <span class="dot">·</span>
+			<span id="nav_book_book">书籍资料</span>
+<!-- 			<span class="dot">·</span> -->
+<!-- 			<span id="nav_book_detail">开关英语 &nbsp;图书资料</span> -->
+<!-- 			<span class="dot">·</span> -->
+<!-- 			<span id="link04" class="orange">图书资料01</span> -->
+		</div>
+		<div class="main">
+			<h2 class="orange">开关英语 &nbsp;书籍资料</h2>
+			<div class="header">
+				<p>         共三本，近千个小节，以独特的方式呈现了英语中如何描述人的各种心情、人的性格、人的状态和评价、人的各种动作、人的听说读写、人的交流和活动等等，以及生活中的世间万物。</p>
+				<!-- <a id="IwantBuyBook" href="./serviceOrder.html" class="buy">我要购买</a> --><br/>
+			</div>
+			<div class="cont">
+			<h3>书籍资料</h3>
+				<img src="../assets/img/server/160113book1.png" onclick="thisshow()">
+				<p>    《开关英语 基础篇》上册，重点描述了时间、人的各种心情、人的各种活动、人的听说读写等</p>
+				<img src="../assets/img/server/160113book2.png" onclick="thisshow()">
+				<p>    《开关英语 基础篇》中册，重点描述了地点、人的性格、人的状态和评价、人的动作等。</p>
+				<img src="../assets/img/server/160113book3.png" onclick="thisshow()">
+				<p>    《开关英语 基础篇》下册，重点描述世间万物，如程度、数量、事物的特征、生活中的各种物品等</p>
+			</div>
+			<div class=""></div>
+			<div class="cont">
+			<h3>内容示例</h3>
+			</div>
+			<div class="loopedSlider">
+				<ul class="nav-buttons">
+					<li class="p">
+						<a href="#" class="previous"><img src="../assets/img/server/160429arrowp.png" alt="&gt;"></a>
+					</li>
+					<li class="n">
+						<a href="#" class="next"><img src="../assets/img/server/160429arrown.png" alt="&gt;"></a>
+					</li>
+				</ul>
+				<div class="container">
+					<p>中册内容 目录展示</p>
+					<div class="slide" id="slide-1">
+						<img alt="目录" class="text" src="http://static.getwant.com/staticpool/assets/img/server/001002x1_book_index_1.jpg">
+					</div>
+					<div class="slide" id="slide-2">
+						<img alt="目录" class="text" src="http://static.getwant.com/staticpool/assets/img/server/001002x1_book_index_2.jpg">
+					</div>
+					<div class="slide" id="slide-3">
+						<img alt="目录" class="text" src="http://static.getwant.com/staticpool/assets/img/server/001002x1_book_text_9.jpg">
+					</div>
+					<div class="slide" id="slide-4">
+						<img alt="目录" class="text" src="http://static.getwant.com/staticpool/assets/img/server/001002x1_book_text_10.jpg">
+					</div>
+					<div class="slide" id="slide-5">
+						<img alt="目录" class="text" src="http://static.getwant.com/staticpool/assets/img/server/001002x1_book_text_11.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="popupbox">
+		    <div class="xuanchuan">
+		        <a href="javascript:;" class="closeA" onclick="thishide()"><img alt="" src="../assets/img/server/160328close.png"></a>
+				<ul class="nav-buttons">
+					<li class="p">
+						<a href="#" class="previous"></a>
+					</li>
+					<li class="n">
+						<a href="#" class="next"></a>
+					</li>
+				</ul>
+				<div class="container">
+					<div class="slide" id="slide-1">
+						<img alt="目录" class="text" src="../assets/img/server/160419book1.jpg">
+					</div>
+					<div class="slide" id="slide-2">
+						<img alt="目录" class="text" src="../assets/img/server/160419book2.png">
+					</div>
+					<div class="slide" id="slide-3">
+						<img alt="目录" class="text" src="../assets/img/server/160419book3.jpg">
+					</div>
+					<div class="slide" id="slide-4">
+						<img alt="目录" class="text" src="../assets/img/server/160419book4.png">
+					</div>
+					<div class="slide" id="slide-5">
+						<img alt="目录" class="text" src="../assets/img/server/160419book5.jpg">
+					</div>
+					<div class="slide" id="slide-6">
+						<img alt="目录" class="text" src="../assets/img/server/160419book6.png">
+					</div>
+				</div>
+			</div>	
+		</div>    
+		<div class="mainbg"></div>
+		<div class="footer">
+			<p>www.getwant.com<br>那些年，我们一起学过的英语！</p>
+		</div>
+	</div>
+	<script>
+	function thisshow(){
+		$('.popupbox').show();
+	}
+	function thishide(){
+		$('.popupbox').hide();
+	}
+	</script>
+</body>
+</html>

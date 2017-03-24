@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>网页音乐播放</title>
+    <link rel="stylesheet" href="../../assets/css/player/160114audio.css">
+    <script src="../../assets/js/jquery-1.8.2.min.js"></script>
+</head>
+<body id="player">
+    <div class="box">
+        <div class="cd">
+        	<div class="cover" id="play"></div>
+        	<div class="start"></div>
+        	<div class="pause"></div>
+        </div> 
+        <p id="weiLoaded" style="display:none">语音数据正在全力制作中，敬请期待</p>    
+        <div class="music-nav">
+            <span class="now" id="now">00:00</span>
+            <input type="range" min="0" max="0" step="0.4" value="0" id="scale">
+            <span class="entire" id="entire">00:00</span>
+        </div>
+        <audio src="../file/ifIDieYoung.mp3" id="music" loop="loop"></audio>
+    </div>
+</body>
+<script src="../../assets/js/player.js"></script>
+<script src="../../assets/js/baseUrl.js"></script>
+</html>

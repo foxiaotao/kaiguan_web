@@ -1,0 +1,88 @@
+*{font-size: 10px;}
+.wrap_pay h2{width:990px;margin:0 auto;font-size:30px;color:#fff;height:50px;line-height:50px;}
+.wrap_pay h2 *.on{color:#ebb450;}
+.wrap_pay h2 a,.wrap_pay h2 span{font-size:30px;display:inline-block;}
+.wrap_pay h2 span.dot{font-family:Microsoft YaHei;margin:0 5px;font-size:20px;}
+.wrap_pay{padding: 90px 0;background: url(../../img/server/160113bg.jpg) repeat-y 50%;width: 100%;}
+.wrap_pay .main{width: 950px;margin: 0 auto;padding: 20px 20px;color: #fff;position: relative;border: 5px solid #fff;background: url(../../img/server/160113mainbg.png) repeat;}
+.wrap_pay input{background: transparent;border: none;border-bottom: 1px solid #fff;width: 255px;height: 30px;margin-bottom: 20px;font-size:1em;color:#fff;}
+.wrap_pay h3{height: 55px;font-size: 24px;line-height: 40px;}
+.wrap_pay h3 span{font-size: 16px;}
+.wrap_pay .phone .phoneNumber{font-size: 2em;color: #fff;}
+.wrap_pay .address{width: 926px;margin: 10px auto;overflow: hidden;line-height: 65px;border: dotted 2px #fff;position: relative;}
+.wrap_pay .address p{font-size: 2em;height:65px;}
+.wrap_pay a.changeaddr{width:60px;height:65px;float:left;background: url(../../img/server/160115edit.png) no-repeat 15px;}
+.wrap_pay .address p span{font-size: 1em;display: inline-block;}
+.wrap_pay a.check{position: absolute;top:15px;right: 10px;height: 34px;width: 31px;background: url(../../img/server/check.png) no-repeat;}
+.wrap_pay a.check.on{background: url(../../img/server/checkon.png) no-repeat;}
+.newAddress{width: 100%;height: 65px;background: url(../../img/server/160115add.png) no-repeat 50%;}
+.wrap_pay table.payment td{font-size: 1.8em;position: relative;}
+.wrap_pay table.payment,table.payment tr{border-collapse:collapse;border-top: 1px solid #fff;border-bottom: 1px solid #fff;width: 930px;margin: 0 auto;}
+.wrap_pay p.right{text-align: right;height: 65px;line-height: 65px;font-size: 2em;position: relative;padding:  20px 200px 0 0;}
+.wrap_pay p.right span{font-size: 1.2em;}
+.wrap_pay p.right a.pay{background: url(../../img/server/160115ellipse.png) no-repeat;color: #ebb450;width: 163px;height: 43px;position: absolute;top: 30px;right: 10px;text-align: center;font-size: 1.5em;line-height: 40px;}
+.wrap_pay select{width:150px;height:30px;font-size:20px;}
+.wrap_pay select option{font-size:1em;}
+.wrap_pay .address.edit p.addr{background: transparent;}
+p.addr.on{color:#f3c3f3;}
+.wrap_pay .address.edit input.addrdetail{width:600px;}
+.wrap_pay .address.edit a{background:transparent;width:50px;height:24px;line-height:24px;position:absolute;top:5px;right:15px;font-size:18px;}
+.wrap_pay .address.edit a.save{right:70px;}
+
+.address.edit p input{color:#fff;font-size:20px;}
+#isDefaultSpanadd{width:80%;}
+#isDefaultadd{width:60px;}
+
+/*diag*/
+
+.diagMask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    /* IE9 + etc...modern browsers */
+    opacity: .5;
+    /* IE 4-9 */
+    filter: alpha(opacity=50);
+}
+
+.diag {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -150px;
+    width: 300px;
+    height: 140px;
+    border:solid #ebb450 3px;
+    background-color: white;
+    z-index:9999;
+}
+
+.text {
+    text-align:center;
+    margin-top: 20px;
+    height:45px;
+    line-height:45px;
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    color:#333;
+}
+
+.ok,#cancel {
+	margin:0;
+    position:absolute;
+    top:85px;
+    width: 80px;
+    height: 30px;
+    background: #ebb450;
+    cursor: pointer;
+    color:#fff;
+    line-height:30px;
+    text-align:center;
+    font-size:16px;
+}
+.ok{left:50px;}
+#cancel{right:50px;}

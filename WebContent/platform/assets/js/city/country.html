@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.ssl_item {
+	position: relative;
+}
+
+.line {
+	transform: rotate(-7.156494deg);
+	-webkit-transform: rotate(-7.156494deg);
+	position: absolute;
+	background: none repeat scroll 0% 0% #f38888;
+	top: 50%;
+	left: -5px;
+	right: -5px;
+	height: 1px;
+}
+</style>
+<script language=javascript>
+</script>
+</head>
+<body>
+<!-- 	<span style="position: relative"> <span>￥100.00</span> -->
+<!-- 		<div -->
+<!-- 			style="transform: rotate(-7.156494deg); -webkit-transform: rotate(-7.156494deg); position: absolute; background: none repeat scroll 0% 0% #f38888; top: 50%; left: -5px; right: -5px; height: 1px;"> -->
+<!-- 		</div> -->
+<!-- 	</span> -->
+
+	<select id="PhoneCountry" class="form-control" name="PhoneCountry"
+		data-bind="options: phoneCountries, optionsValue: 'iso', optionsText: 'displayValue', value: phoneCountry"><option
+			value="AF">阿富汗 &rlm;(&lrm;+93)</option>
+		<option value="AL">阿尔巴尼亚 &rlm;(&lrm;+355)</option>
+		<option value="DZ">阿尔及利亚 &rlm;(&lrm;+213)</option>
+		<option value="AD">安道尔 &rlm;(&lrm;+376)</option>
+		<option value="AO">安哥拉 &rlm;(&lrm;+244)</option>
+		<option value="AQ">南极洲 &rlm;(&lrm;+672)</option>
+		<option value="AG">安提瓜和巴布达 &rlm;(&lrm;+1)</option>
+		<option value="AR">阿根廷 &rlm;(&lrm;+54)</option>
+		<option value="AM">亚美尼亚 &rlm;(&lrm;+374)</option>
+		<option value="AW">阿鲁巴 &rlm;(&lrm;+297)</option>
+		<option value="AC">阿森松岛 &rlm;(&lrm;+247)</option>
+		<option value="AU">澳大利亚 &rlm;(&lrm;+61)</option>
+		<option value="AT">奥地利 &rlm;(&lrm;+43)</option>
+		<option value="AZ">阿塞拜疆 &rlm;(&lrm;+994)</option>
+		<option value="BS">巴哈马 &rlm;(&lrm;+1)</option>
+		<option value="BH">巴林 &rlm;(&lrm;+973)</option>
+		<option value="BD">孟加拉国 &rlm;(&lrm;+880)</option>
+		<option value="BB">巴巴多斯 &rlm;(&lrm;+1)</option>
+		<option value="BY">白俄罗斯 &rlm;(&lrm;+375)</option>
+		<option value="BE">比利时 &rlm;(&lrm;+32)</option>
+		<option value="BZ">伯利兹 &rlm;(&lrm;+501)</option>
+		<option value="BJ">贝宁 &rlm;(&lrm;+229)</option>
+		<option value="BM">百慕大群岛 &rlm;(&lrm;+1)</option>
+		<option value="BT">不丹 &rlm;(&lrm;+975)</option>
+		<option value="BO">玻利维亚 &rlm;(&lrm;+591)</option>
+		<option value="BA">波斯尼亚和黑塞哥维那 &rlm;(&lrm;+387)</option>
+		<option value="BW">博茨瓦纳 &rlm;(&lrm;+267)</option>
+		<option value="BV">布韦岛 &rlm;(&lrm;+47)</option>
+		<option value="BR">巴西 &rlm;(&lrm;+55)</option>
+		<option value="IO">英属印度洋领地 &rlm;(&lrm;+44)</option>
+		<option value="BN">文莱 &rlm;(&lrm;+673)</option>
+		<option value="BG">保加利亚 &rlm;(&lrm;+359)</option>
+		<option value="BF">布基纳法索 &rlm;(&lrm;+226)</option>
+		<option value="BI">布隆迪 &rlm;(&lrm;+257)</option>
+		<option value="CV">佛得角 &rlm;(&lrm;+238)</option>
+		<option value="KH">柬埔寨 &rlm;(&lrm;+855)</option>
+		<option value="CM">喀麦隆 &rlm;(&lrm;+237)</option>
+		<option value="CA">加拿大 &rlm;(&lrm;+1)</option>
+		<option value="KY">开曼群岛 &rlm;(&lrm;+1)</option>
+		<option value="CF">中非共和国 &rlm;(&lrm;+236)</option>
+		<option value="TD">乍得 &rlm;(&lrm;+235)</option>
+		<option value="CL">智利 &rlm;(&lrm;+56)</option>
+		<option value="CN">中国 &rlm;(&lrm;+86)</option>
+		<option value="CX">圣诞岛 &rlm;(&lrm;+61)</option>
+		<option value="CC">科科斯群岛(基灵群岛) &rlm;(&lrm;+61)</option>
+		<option value="CO">哥伦比亚 &rlm;(&lrm;+57)</option>
+		<option value="KM">科摩罗联盟 &rlm;(&lrm;+269)</option>
+		<option value="CG">刚果共和国 &rlm;(&lrm;+242)</option>
+		<option value="CD">刚果(DRC) &rlm;(&lrm;+243)</option>
+		<option value="CK">库可群岛 &rlm;(&lrm;+682)</option>
+		<option value="CR">哥斯达黎加 &rlm;(&lrm;+506)</option>
+		<option value="HR">克罗地亚 &rlm;(&lrm;+385)</option>
+		<option value="CU">古巴 &rlm;(&lrm;+53)</option>
+		<option value="CY">塞浦路斯 &rlm;(&lrm;+357)</option>
+		<option value="CZ">捷克共和国 &rlm;(&lrm;+420)</option>
+		<option value="DK">丹麦 &rlm;(&lrm;+45)</option>
+		<option value="DJ">吉布提 &rlm;(&lrm;+253)</option>
+		<option value="DM">多米尼克 &rlm;(&lrm;+1)</option>
+		<option value="DO">多米尼加共和国 &rlm;(&lrm;+1)</option>
+		<option value="EC">厄瓜多尔 &rlm;(&lrm;+593)</option>
+		<option value="EG">埃及 &rlm;(&lrm;+20)</option>
+		<option value="SV">萨尔瓦多 &rlm;(&lrm;+503)</option>
+		<option value="GQ">赤道几内亚 &rlm;(&lrm;+240)</option>
+		<option value="ER">厄立特里亚 &rlm;(&lrm;+291)</option>
+		<option value="EE">爱沙尼亚 &rlm;(&lrm;+372)</option>
+		<option value="ET">埃塞俄比亚 &rlm;(&lrm;+251)</option>
+		<option value="FK">福克兰群岛 &rlm;(&lrm;+500)</option>
+		<option value="FO">法罗群岛 &rlm;(&lrm;+298)</option>
+		<option value="FJ">斐济群岛 &rlm;(&lrm;+679)</option>
+		<option value="FI">芬兰 &rlm;(&lrm;+358)</option>
+		<option value="FR">法国 &rlm;(&lrm;+33)</option>
+		<option value="GF">法属圭亚那 &rlm;(&lrm;+594)</option>
+		<option value="PF">法属波利尼西亚 &rlm;(&lrm;+689)</option>
+		<option value="GA">加蓬 &rlm;(&lrm;+241)</option>
+		<option value="GM">冈比亚 &rlm;(&lrm;+220)</option>
+		<option value="GE">格鲁吉亚 &rlm;(&lrm;+995)</option>
+		<option value="DE">德国 &rlm;(&lrm;+49)</option>
+		<option value="GH">加纳 &rlm;(&lrm;+233)</option>
+		<option value="GI">直布罗陀 &rlm;(&lrm;+350)</option>
+		<option value="GR">希腊 &rlm;(&lrm;+30)</option>
+		<option value="GL">格陵兰 &rlm;(&lrm;+299)</option>
+		<option value="GD">格林纳达 &rlm;(&lrm;+1)</option>
+		<option value="GP">瓜德罗普岛 &rlm;(&lrm;+590)</option>
+		<option value="GU">关岛 &rlm;(&lrm;+1)</option>
+		<option value="GT">危地马拉 &rlm;(&lrm;+502)</option>
+		<option value="GG">格恩西岛 &rlm;(&lrm;+44)</option>
+		<option value="GN">几内亚 &rlm;(&lrm;+224)</option>
+		<option value="GW">几内亚比绍 &rlm;(&lrm;+245)</option>
+		<option value="GY">圭亚那 &rlm;(&lrm;+592)</option>
+		<option value="HT">海地 &rlm;(&lrm;+509)</option>
+		<option value="VA">圣座(梵蒂冈) &rlm;(&lrm;+379)</option>
+		<option value="HN">洪都拉斯 &rlm;(&lrm;+504)</option>
+		<option value="HK">香港特别行政区 &rlm;(&lrm;+852)</option>
+		<option value="HU">匈牙利 &rlm;(&lrm;+36)</option>
+		<option value="IS">冰岛 &rlm;(&lrm;+354)</option>
+		<option value="IN">印度 &rlm;(&lrm;+91)</option>
+		<option value="ID">印度尼西亚 &rlm;(&lrm;+62)</option>
+		<option value="IR">伊朗 &rlm;(&lrm;+98)</option>
+		<option value="IQ">伊拉克 &rlm;(&lrm;+964)</option>
+		<option value="IE">爱尔兰 &rlm;(&lrm;+353)</option>
+		<option value="IM">马恩岛 &rlm;(&lrm;+44)</option>
+		<option value="IL">以色列 &rlm;(&lrm;+972)</option>
+		<option value="IT">意大利 &rlm;(&lrm;+39)</option>
+		<option value="JM">牙买加 &rlm;(&lrm;+1)</option>
+		<option value="SJ">扬马延岛 &rlm;(&lrm;+47)</option>
+		<option value="JP">日本 &rlm;(&lrm;+81)</option>
+		<option value="JE">泽西 &rlm;(&lrm;+44)</option>
+		<option value="JO">约旦 &rlm;(&lrm;+962)</option>
+		<option value="KZ">哈萨克斯坦 &rlm;(&lrm;+7)</option>
+		<option value="KE">肯尼亚 &rlm;(&lrm;+254)</option>
+		<option value="KI">基里巴斯 &rlm;(&lrm;+686)</option>
+		<option value="KR">韩国 &rlm;(&lrm;+82)</option>
+		<option value="KW">科威特 &rlm;(&lrm;+965)</option>
+		<option value="KG">吉尔吉斯斯坦 &rlm;(&lrm;+996)</option>
+		<option value="LA">老挝 &rlm;(&lrm;+856)</option>
+		<option value="LV">拉脱维亚 &rlm;(&lrm;+371)</option>
+		<option value="LB">黎巴嫩 &rlm;(&lrm;+961)</option>
+		<option value="LS">莱索托 &rlm;(&lrm;+266)</option>
+		<option value="LR">利比里亚 &rlm;(&lrm;+231)</option>
+		<option value="LY">利比亚 &rlm;(&lrm;+218)</option>
+		<option value="LI">列支敦士登 &rlm;(&lrm;+423)</option>
+		<option value="LT">立陶宛 &rlm;(&lrm;+370)</option>
+		<option value="LU">卢森堡 &rlm;(&lrm;+352)</option>
+		<option value="MO">澳门特别行政区 &rlm;(&lrm;+853)</option>
+		<option value="MK">前南斯拉夫马其顿共和国 &rlm;(&lrm;+389)</option>
+		<option value="MG">马达加斯加 &rlm;(&lrm;+261)</option>
+		<option value="MW">马拉维 &rlm;(&lrm;+265)</option>
+		<option value="MY">马来西亚 &rlm;(&lrm;+60)</option>
+		<option value="MV">马尔代夫 &rlm;(&lrm;+960)</option>
+		<option value="ML">马里 &rlm;(&lrm;+223)</option>
+		<option value="MT">马耳他 &rlm;(&lrm;+356)</option>
+		<option value="MH">马绍尔群岛 &rlm;(&lrm;+692)</option>
+		<option value="MQ">马提尼克岛 &rlm;(&lrm;+596)</option>
+		<option value="MR">毛利塔尼亚 &rlm;(&lrm;+222)</option>
+		<option value="MU">毛里求斯 &rlm;(&lrm;+230)</option>
+		<option value="YT">马约特 &rlm;(&lrm;+262)</option>
+		<option value="MX">墨西哥 &rlm;(&lrm;+52)</option>
+		<option value="FM">密克罗尼西亚 &rlm;(&lrm;+691)</option>
+		<option value="MD">摩尔多瓦 &rlm;(&lrm;+373)</option>
+		<option value="MC">摩纳哥 &rlm;(&lrm;+377)</option>
+		<option value="MN">蒙古 &rlm;(&lrm;+976)</option>
+		<option value="ME">黑山 &rlm;(&lrm;+382)</option>
+		<option value="MS">蒙特塞拉特 &rlm;(&lrm;+1)</option>
+		<option value="MA">摩洛哥 &rlm;(&lrm;+212)</option>
+		<option value="MZ">莫桑比克 &rlm;(&lrm;+258)</option>
+		<option value="MM">缅甸 &rlm;(&lrm;+95)</option>
+		<option value="NA">纳米比亚 &rlm;(&lrm;+264)</option>
+		<option value="NR">瑙鲁 &rlm;(&lrm;+674)</option>
+		<option value="NP">尼泊尔 &rlm;(&lrm;+977)</option>
+		<option value="NL">荷兰 &rlm;(&lrm;+31)</option>
+		<option value="AN">荷属安的列斯(前) &rlm;(&lrm;+599)</option>
+		<option value="NC">新喀里多尼亚 &rlm;(&lrm;+687)</option>
+		<option value="NZ">新西兰 &rlm;(&lrm;+64)</option>
+		<option value="NI">尼加拉瓜 &rlm;(&lrm;+505)</option>
+		<option value="NE">尼日尔 &rlm;(&lrm;+227)</option>
+		<option value="NG">尼日利亚 &rlm;(&lrm;+234)</option>
+		<option value="NU">纽埃 &rlm;(&lrm;+683)</option>
+		<option value="KP">朝鲜 &rlm;(&lrm;+850)</option>
+		<option value="MP">北马里亚纳群岛 &rlm;(&lrm;+1)</option>
+		<option value="NO">挪威 &rlm;(&lrm;+47)</option>
+		<option value="OM">阿曼 &rlm;(&lrm;+968)</option>
+		<option value="PK">巴基斯坦 &rlm;(&lrm;+92)</option>
+		<option value="PW">帕劳群岛 &rlm;(&lrm;+680)</option>
+		<option value="PS">巴勒斯坦民族权力机构 &rlm;(&lrm;+972)</option>
+		<option value="PA">巴拿马 &rlm;(&lrm;+507)</option>
+		<option value="PG">巴布亚新几内亚 &rlm;(&lrm;+675)</option>
+		<option value="PY">巴拉圭 &rlm;(&lrm;+595)</option>
+		<option value="PE">秘鲁 &rlm;(&lrm;+51)</option>
+		<option value="PH">菲律宾 &rlm;(&lrm;+63)</option>
+		<option value="PL">波兰 &rlm;(&lrm;+48)</option>
+		<option value="PT">葡萄牙 &rlm;(&lrm;+351)</option>
+		<option value="QA">卡塔尔 &rlm;(&lrm;+974)</option>
+		<option value="CI">科特迪瓦共和国 &rlm;(&lrm;+225)</option>
+		<option value="RE">留尼汪 &rlm;(&lrm;+262)</option>
+		<option value="RO">罗马尼亚 &rlm;(&lrm;+40)</option>
+		<option value="RU">俄罗斯 &rlm;(&lrm;+7)</option>
+		<option value="RW">卢旺达 &rlm;(&lrm;+250)</option>
+		<option value="SH">圣赫勒拿-阿森松-特里斯坦达库尼亚 &rlm;(&lrm;+290)</option>
+		<option value="WS">萨摩亚 &rlm;(&lrm;+685)</option>
+		<option value="SM">圣马力诺 &rlm;(&lrm;+378)</option>
+		<option value="ST">圣多美和普林西比 &rlm;(&lrm;+239)</option>
+		<option value="SA">沙特阿拉伯 &rlm;(&lrm;+966)</option>
+		<option value="SN">塞内加尔 &rlm;(&lrm;+221)</option>
+		<option value="RS">塞尔维亚共和国 &rlm;(&lrm;+381)</option>
+		<option value="SC">塞舌尔 &rlm;(&lrm;+248)</option>
+		<option value="SL">塞拉利昂 &rlm;(&lrm;+232)</option>
+		<option value="SG">新加坡 &rlm;(&lrm;+65)</option>
+		<option value="SK">斯洛伐克 &rlm;(&lrm;+421)</option>
+		<option value="SI">斯洛文尼亚 &rlm;(&lrm;+386)</option>
+		<option value="SB">所罗门群岛 &rlm;(&lrm;+677)</option>
+		<option value="SO">索马里 &rlm;(&lrm;+252)</option>
+		<option value="ZA">南非 &rlm;(&lrm;+27)</option>
+		<option value="ES">西班牙 &rlm;(&lrm;+34)</option>
+		<option value="LK">斯里兰卡 &rlm;(&lrm;+94)</option>
+		<option value="KN">圣基茨和尼维斯 &rlm;(&lrm;+1)</option>
+		<option value="LC">圣卢西亚 &rlm;(&lrm;+1)</option>
+		<option value="PM">圣皮埃尔岛和密克隆岛 &rlm;(&lrm;+508)</option>
+		<option value="VC">圣文森特和格林纳丁斯 &rlm;(&lrm;+1)</option>
+		<option value="SD">苏丹 &rlm;(&lrm;+249)</option>
+		<option value="SR">苏里南 &rlm;(&lrm;+597)</option>
+		<option value="SZ">斯威士兰 &rlm;(&lrm;+268)</option>
+		<option value="SE">瑞典 &rlm;(&lrm;+46)</option>
+		<option value="CH">瑞士 &rlm;(&lrm;+41)</option>
+		<option value="SY">叙利亚 &rlm;(&lrm;+963)</option>
+		<option value="TW">台湾 &rlm;(&lrm;+886)</option>
+		<option value="TJ">塔吉克斯坦 &rlm;(&lrm;+992)</option>
+		<option value="TZ">坦桑尼亚 &rlm;(&lrm;+255)</option>
+		<option value="TH">泰国 &rlm;(&lrm;+66)</option>
+		<option value="TL">东帝汶 &rlm;(&lrm;+670)</option>
+		<option value="TG">多哥 &rlm;(&lrm;+228)</option>
+		<option value="TK">托克劳 &rlm;(&lrm;+690)</option>
+		<option value="TO">汤加 &rlm;(&lrm;+676)</option>
+		<option value="TT">特立尼达和多巴哥 &rlm;(&lrm;+1)</option>
+		<option value="TA">特里斯坦达昆哈 &rlm;(&lrm;+290)</option>
+		<option value="TN">突尼斯 &rlm;(&lrm;+216)</option>
+		<option value="TR">土耳其 &rlm;(&lrm;+90)</option>
+		<option value="TM">土库曼斯坦 &rlm;(&lrm;+993)</option>
+		<option value="TC">特克斯和凯科斯群岛 &rlm;(&lrm;+1)</option>
+		<option value="TV">图瓦卢 &rlm;(&lrm;+688)</option>
+		<option value="UG">乌干达 &rlm;(&lrm;+256)</option>
+		<option value="UA">乌克兰 &rlm;(&lrm;+380)</option>
+		<option value="AE">阿拉伯联合酋长国 &rlm;(&lrm;+971)</option>
+		<option value="UK">英国 &rlm;(&lrm;+44)</option>
+		<option value="US">美国 &rlm;(&lrm;+1)</option>
+		<option value="UM">美属外岛 &rlm;(&lrm;+1)</option>
+		<option value="UY">乌拉圭 &rlm;(&lrm;+598)</option>
+		<option value="UZ">乌兹别克斯坦 &rlm;(&lrm;+998)</option>
+		<option value="VU">瓦努阿图 &rlm;(&lrm;+678)</option>
+		<option value="VE">委内瑞拉 &rlm;(&lrm;+58)</option>
+		<option value="VN">越南 &rlm;(&lrm;+84)</option>
+		<option value="VG">维尔京群岛(英属) &rlm;(&lrm;+1)</option>
+		<option value="VI">美属维尔京群岛 &rlm;(&lrm;+1)</option>
+		<option value="WF">瓦利斯和富图纳 &rlm;(&lrm;+681)</option>
+		<option value="YE">也门 &rlm;(&lrm;+967)</option>
+		<option value="ZM">赞比亚 &rlm;(&lrm;+260)</option>
+		<option value="ZW">津巴布韦 &rlm;(&lrm;+263)</option></select>
+</body>
+</html>

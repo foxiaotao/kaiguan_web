@@ -1,0 +1,14 @@
+*{padding: 0;margin: 0;font-family: "MicroSoft YaHei";}
+
+.wrap{width: 100%;background: #f7f4e0;overflow: hidden;}
+.main{width: 1000px;margin: 20px auto;overflow: hidden;font-size: 16px;}
+header{overflow: hidden;}
+header h1{width: 466px;height: 147px;background: url(../../img/train/160405h1bg.png)no-repeat;}
+header p{text-indent: 2em;}
+header img{width: 40%;margin: 10px 5%;float: left;}
+.cont h3{font-size: 20px;color: #785e3e;margin: 20px 0;height: 30px;line-height: 30px;}
+.cont .course{position: relative;float: left;width: 280px;height: 210px;padding: 40px 60px;margin: 20px 50px;background: url(../../img/train/160405course.png);background-size: 100% 100%;}
+.cont .course p{line-height: 30px;}
+.cont .course p.center{text-align: center;}
+a.addMeIn{color: #fff;text-decoration: none;text-align: center;display: inline-block;width: 100px;height: 40px;line-height: 40px;background: url(../../img/train/160405btnok.png);background-size: 100% 100%;position: absolute;bottom: 40px;right: 50px;}
+a.addMeIn.no{background: url(../../img/train/160405btn.png);background-size: 100% 100%;}

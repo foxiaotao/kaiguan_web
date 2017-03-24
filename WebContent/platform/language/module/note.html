@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head lang="zh-CN">
+	<meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title></title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/note.css">
+</head>
+<script type="text/javascript">
+// 		window.onbeforeunload = function() {
+// 				if(confirm("页面值已经修改，是否要保存？")){
+// 		 	 		//处理信息保存...
+// 					alert("即将执行保存操作...");
+// 		 	 	}else{
+// 		 	 		//不保存数据...
+// 					alert("不保存信息...");
+// 		 	 	}
+// 			return 'Are You Sure To Leave This Page?'; 
+// 		 	}
+</script>
+<body background="001002x01_40_background_1_20150130.png">
+   
+	<div id="textarea_div">
+		<textarea class="textfield" id="textarea" readonly="readonly" style="display:block"></textarea>
+	</div>
+	<div id="edit_div">
+		
+		<textarea id="textarea_edit" style="display:none" rows="20" cols="100"></textarea>
+	</div>
+    
+    <div class="updatetime">本笔记更新于   <span class="time">2015年12月31号 10:30:00</span></div>
+    <div class="edit"></div>
+    <div class="cancel"></div>
+    <div class="save"></div>
+
+    <!-- Javascript -->
+    <script src="../../assets/js/jquery-1.8.2.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/diag.js"></script>
+    <script src="../../assets/js/baseUrl.js"></script>
+    <script src="../../assets/js/note.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	$('#textarea').width(document.body.clientWidth - 20);
+    })
+    </script>
+</body>
+</html>

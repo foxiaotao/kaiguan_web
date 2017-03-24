@@ -1,0 +1,26 @@
+
+.wrap_uservice{background: url(../../img/server/user_service_bgt.png) no-repeat;background-size: 100% 334px;color: #000;font-size: 16px;}
+.wrap_uservice .orange{color: #ebb450;}
+.wrap_uservice .header{height: 206px;color: #fff;width: 700px;margin: 0 auto;padding-top: 70px;}
+.wrap_uservice .main{width: 1000px;}
+/*content*/
+
+.service_detail h3 span.spanPrice{display:inline-block;font-size:20px;color:#ebb450;}
+.wrap_uservice h2{height: 40px;border-bottom: 2px solid #000;background: url(../../img/server/160107h2bg.png) no-repeat 950px 0;}
+.wrap_uservice .header span{display: block;text-align: center;}
+.wrap_uservice .header span.title{height: 90px;width: 126px;border: 2px solid #fff;padding-top: 36px;float: left;font-size: 20px;}
+.wrap_uservice .header span.cont{line-height: 126px;height: 126px;float: right;font-size: 16px;}
+.wrap_uservice span.dot{color: #000;font-size: 14px;line-height: 30px;}
+.wrap_uservice .tab_cont{padding: 75px 0 100px 0;overflow: hidden;}
+.wrap_uservice .tab_cont ul{display: block;float: left;}
+.wrap_uservice .tab_cont .tab_content{float: left;}
+.wrap_uservice ul.tabs{padding-top: 20px;width: 225px;font-size: 16px;line-height: 24px;font-weight: bold;}
+.wrap_uservice ul li a{display: inline-block;height: 60px;width: 165px;border-bottom: 2px solid #000;}
+.wrap_uservice ul li.current a,.wrap_uservice ul li a:hover{border-bottom: 2px solid #ebb450;color: #ebb450;}
+.tab_content .orange{color: #ebb450;border-bottom: 2px solid #ebb450;}
+.service_detail{height: 90px;width: 775px;border-bottom: 2px solid #000;padding: 28px 0;}
+.service_detail h3{font-size: 18px;padding-bottom: 15px;height: 30px;}
+.service_detail h3 span{display: block;float: right;font-size: 12px;font-family: "YaHei";}
+.service_detail a.button{font-size: 14px;float: right;width: 76px;height: 20px;text-align: center;margin-left: 20px;background: url(../../img/server/160107ellipse.png) no-repeat;}
+.service_detail a.button:hover{color: #ebb450;background: url(../../img/server/160107ellipse_orange.png) no-repeat;}
+.wrap_uservice .footer{padding-top: 120px;font-size: 14px;color: #fff;text-align: center;height: 60px;background: url(../../img/server/user_service_bgb.png) repeat-x;}

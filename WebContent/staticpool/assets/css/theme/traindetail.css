@@ -1,0 +1,9 @@
+*{font-family:"Microsoft Yahei";padding:0;margin:0;}
+
+div{width:100%;overflow:hidden;}
+div img{width:100%;}
+.mobile{display:none;}
+@media (max-width: 960px) {
+   .pc{display:none;}
+   .mobile{display:block;}
+}

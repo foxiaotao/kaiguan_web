@@ -1,0 +1,124 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+	font-family: KaiTi;
+}
+
+.textfield {
+	margin: 0;
+	padding-top: 30px;
+	border-bottom: solid;
+	border-color: #eee;
+	border-width: 0px;
+	background-color: transparent;
+}
+/* textarea {
+    display:none;
+    margin: 0;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    width:500px;
+} */
+.updatetime {
+	display: none;
+	color: #808080;
+	height: 80px;
+	line-height: 80px;
+	margin-left: 10px;
+}
+
+.updatetime .time {
+	font-style: italic;
+}
+
+/*     
+.edit {
+    display:none;
+    background:url(../img/content/lang_content_edit.png) center no-repeat;
+    width:135px;
+    height:45px;
+    position:absolute;
+    bottom:30px;
+    right:110px;
+    cursor:pointer;
+}
+.cancel {
+    display:none;
+    background:url(../img/content/lang_content_back.png) center no-repeat;
+    width:135px;
+    height:45px;
+    position:absolute;
+    bottom:30px;
+    left:110px;
+    cursor:pointer;
+}
+.save {
+    display:none;
+    background:url(../img/content/lang_content_save.png) center no-repeat;
+    width:135px;
+    height:45px;
+    position:absolute;
+    bottom:30px;
+    right:110px;
+    cursor:pointer;
+}
+ */
+/*popupbox*/
+
+#popupbox_save{cursor:pointer;}
+#popupbox_cancel{cursor:pointer;}
+
+#popupbox {
+	height: 400px;
+	width: 600px;
+	padding: 30px 0;
+	margin: -200px 0 0 -300px;
+	background: #fff;
+	z-index: 999;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+
+#popupbox textarea.note {
+	height: 350px;
+	width: 560px;
+	display:block;
+	margin: 0 auto;
+	border: 1px solid #ebb450;
+	outline:none;
+	background: transparent;
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+}
+
+.wrapblack {
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+	background: #000;
+	opacity: 0.4;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#popupbox a {
+	display: block;
+	width: 100px;
+	color:#fff;
+	text-align:center;
+	background:#ebb450;
+	height: 34px;
+	line-height: 34px;
+	position: absolute;
+	bottom: 20px;
+	margin: 0;
+	padding: 0;
+}
+#popupbox a.save{right:20px;}
+#popupbox a.cancel{right:160px;}

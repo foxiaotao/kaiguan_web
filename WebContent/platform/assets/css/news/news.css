@@ -1,0 +1,25 @@
+ul,li,a{list-style: none;text-decoration: none;display: inline-block;color: #333;margin: 0;padding: 0;}
+
+.wrap_news{background: url(../../img/course/chapterTextbg.jpg) repeat;width: 100%;overflow: hidden;}
+.wrap_news .main{width: 1000px;padding: 80px 0 50px 0;}
+.wrap_news .main h2{width: 1000px;height: 40px;border-bottom: 2px solid #333;color: #333;font-size: 30px;}
+.wrap_news .main h2 span{font-size: 24px;display:inline-block;height:40px;overflow:hidden;width:auto;}
+.wrap_news .main span.dot{font-family:'Microsoft YaHei';font-size:10px;line-height:40px;width:5px;padding:0 5px;}
+.wrap_news .orange{color: #ebb450;}
+.newsCont{color: #333;}
+.newsCont *{font-family: 'Microsoft YaHei';}
+.newsCont h3{overflow: hidden;padding: 10px 0;border-bottom: 1px solid #ccc;font-weight: normal;}
+.newsCont h3 img.title{float: left;}
+.newsCont h3 span.title{float: left;height: 40px;line-height: 40px;font-size: 20px;width:300px;}
+.newsCont h3 span.date{float: right;height: 20px;line-height: 20px;font-size: 14px;margin-bottom: 20px;}
+.content{width: 100%;overflow: hidden;border-bottom: 1px solid #ccc;}
+.content *{line-height: 40px;font-size: 18px;float: left;}
+.content img{width: 80px;height: 80px;padding: 5px;}
+.content span{width: 880px;padding-left: 10px;}
+.content span.contDetail{font-size: 16px;color: #aaa;height: 20px;line-height: 20px;}
+#pageInitHtml{margin-top:20px;}
+#pageInitHtml *{font-family:"Microsoft Yahei";color:#333;font-size:16px;}
+#pageInitHtml input.condition{width:50px;height:30px;border:none;background:transparent;}
+#inputNum{color:#666;}
+.resetlang{cursor: pointer;}
+span.resetlang:hover{color: #ebb450;}

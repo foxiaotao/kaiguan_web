@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="">
+	<title>开关教育</title>
+	<link rel="stylesheet" href="assets/css/searchdetail.css">
+	<script src="./assets/js/jquery-1.8.2.min.js"></script>
+    <script src="./assets/js/jquery.cookie.js"></script>
+    <script src="./assets/js/util/diag.js"></script>
+	<script src="./assets/js/util/baseUrl.js"></script>
+	<script src="./assets/js/search/detailSearch.js"></script>
+</head>
+<body>
+	<div class="wrapSearch">
+		<div class="selectSearch">
+			<div class="searchlogo">
+				<img src="assets/images/search/160315searchlogo.png" alt="">
+			</div>
+			<ul class="ulline">
+				<li class="on" id="dict"><a href="#"><img src="assets/images/search/160315btn01.png" alt=""></a></li>
+				<li id="bing"><a href="#"><img src="assets/images/search/160315btn02.png" alt=""></a></li>
+				<li id="baidu"><a href="#"><img src="assets/images/search/160315btn03.png" alt=""></a></li>
+			</ul>
+		</div>
+		<iframe src="" frameborder="0" class="baidudict" id="iframedict" name="baidudict"></iframe>
+<!-- 		<iframe src="http://dict.baidu.com/s" frameborder="0" class="baidudict" id="iframebaidudict" name="baidudict"></iframe> -->
+		<iframe src="" frameborder="0" class="bing" id="iframebing" name="bing"></iframe>
+		<iframe src="" frameborder="0" class="baidu" id="iframebaidu" name="baidu"></iframe>
+	</div>
+<script>
+    $('.ulline').width(document.documentElement.clientWidth);
+    $('iframe').width(document.documentElement.clientWidth);
+    $('iframe').height(document.documentElement.clientHeight - 120);
+</script>
+</body>
+</html>

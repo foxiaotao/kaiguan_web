@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开关教育服务平台-产品中心</title>
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+	<link rel="stylesheet" href="../assets/css/server/service_detail.css">
+	<link rel="stylesheet" href="../assets/css/server/servicemain.css">
+	<link rel="stylesheet" href="../assets/css/public/publicStyle.css">
+	<script src="../assets/js/jquery-1.8.2.min.js"></script>
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/baseUrl.js"></script>
+	<script src="../assets/js/server/service_detail_001002x1_IwantBuy.js"></script>
+	<script src="../assets/js/util/service_nav.js"></script>
+	<script src="../assets/js/util/top_tool_service.js"></script>
+	<script type='text/javascript' src='../assets/js/jquery.easing.min.js?ver=2.8'></script>
+	<script type='text/javascript' src='../assets/js/server/loopedSlider.js?ver=2.8'></script>
+</head>
+<body>
+	<div class="wrap_servicedetail">
+		<div class="publicbanner">
+			<select name="lang" id="lang01">
+				<option value="01">开关英语</option>
+				<option value="02">开关英语</option>
+				<option value="03">开关英语</option>
+			</select>
+			<div class="tool">
+				<a href="#" class="userInfo" title="个人中心"></a>
+				<span class="welcomeText">请登录</span>
+				<a href="#" class="logout" title="退出"></a>
+			</div>
+		</div>
+		<div class="link">
+		    <span id="nav_suit_serviceCenter">产品/服务中心</span>
+		    <span class="dot">·</span>
+			<span id="nav_suit_suit">学习套件</span>
+<!-- 			<span class="dot">·</span> -->
+<!-- 			<span id="nav_suit_detail" class="on">开关英语 &nbsp;学习套件</span> -->
+<!-- 			<span class="dot">·</span> -->
+<!-- 			<span id="link04" class="orange">书籍资料01</span> -->
+		</div>
+		<div class="main">
+			<h2 class="orange">开关英语 &nbsp;学习套件</h2>
+			<div class="header">
+				<h4>送一套书：</h4>
+				<p>共三本，以独特实用的方式呈现了英语中如何描述人的各种心情、人的性格、人的状态和评价、人的各种动作、人的听说读写、人的交流和活动等等。</p>
+				<h4>送三年网络会员：</h4>
+				<p>可在电脑/手机上，随时随地看一看、听一听、搜一搜、记一记等。</p>
+				<a id="IwantBuySuit" href="./serviceOrder.html?title=开关英语 学习套件" class="buy">我要购买</a>
+			</div>
+			<div class="cont">
+				<h3>书籍资料<a href="./service_detail_001002x1_book_1.html?type=book&title=《开关英语 基础篇》上/中/下册&price=300" class="detail">详情>></a></h3>
+				<div class="book">
+					<p>《开关英语基础篇 上册》</p>
+					<img src="../assets/img/server/160113book1.png" onclick="bookshow()">
+				</div>
+				<div class="book">
+					<p>《开关英语基础篇 中册》</p>
+					<img src="../assets/img/server/160113book2.png" onclick="bookshow()">
+				</div>
+				<div class="book">
+					<p>《开关英语基础篇 下册》</p>
+					<img src="../assets/img/server/160113book3.png" onclick="bookshow()">
+				</div>
+				<h3>网络会员<a href="./service_detail_001002x1_membership_1.html?type=net&title=开关英语 网络会员（三年）&price=1000" class="detail">详情>></a></h3>
+				<div class="mobile">
+					<p>手机版</p>
+					<img src="../assets/img/server/160113phone1.png" onclick="bookshow()">
+					<img src="../assets/img/server/160113phone2.png" onclick="bookshow()">
+					<img src="../assets/img/server/160113phone3.png" onclick="bookshow()">
+					<img src="../assets/img/server/160113phone4.png" onclick="bookshow()">
+					<img src="../assets/img/server/160113phone5.png" onclick="bookshow()">
+					<img src="../assets/img/server/160113phone6.png" onclick="bookshow()">
+				</div>
+				<div class="pc">
+					<p>PC端</p>
+					<img src="../assets/img/server/160113pc1.png" class="pc1" onclick="bookshow()">
+					<img src="../assets/img/server/160113pc2.png" class="pc1" onclick="bookshow()">
+					<img src="../assets/img/server/160113pc3.png" class="pc2" onclick="bookshow()">
+				</div>
+			</div>
+		</div>
+		<div class="mainbg"></div>
+		<div class="footer">
+			<p>www.getwant.com<br>那些年，我们一起学过的英语！</p>
+		</div>
+		<div class="popupbox">
+		    <div class="xuanchuan">
+		        <a href="javascript:;" class="closeA" onclick="thishide()"><img alt="" src="../assets/img/server/160328close.png"></a>
+				<ul class="nav-buttons">
+					<li class="p">
+						<a href="#" class="previous"></a>
+					</li>
+					<li class="n">
+						<a href="#" class="next"></a>
+					</li>
+				</ul>
+				<div class="container">
+					<div class="slide" id="slide-1">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc1.png">
+					</div>
+					<div class="slide" id="slide-2">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc2.png">
+					</div>
+					<div class="slide" id="slide-3">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc3.png">
+					</div>
+					<div class="slide" id="slide-4">
+						<img alt="目录" class="text" src="../assets/img/server/160419pc4.png">
+					</div>
+					<div class="slide" id="slide-5">
+						<img alt="目录" class="text" src="../assets/img/server/160419app1.png">
+					</div>
+					<div class="slide" id="slide-6">
+						<img alt="目录" class="text" src="../assets/img/server/160419app2.png">
+					</div>
+					<div class="slide" id="slide-7">
+						<img alt="目录" class="text" src="../assets/img/server/160419app3.png">
+					</div>
+					<div class="slide" id="slide-8">
+						<img alt="目录" class="text" src="../assets/img/server/160419app4.png">
+					</div>
+					<div class="slide" id="slide-9">
+						<img alt="目录" class="text" src="../assets/img/server/160419app5.png">
+					</div>
+					<div class="slide" id="slide-10">
+						<img alt="目录" class="text" src="../assets/img/server/160419app6.png">
+					</div>
+					<div class="slide" id="slide-11">
+						<img alt="目录" class="text" src="../assets/img/server/160419book1.jpg">
+					</div>
+					<div class="slide" id="slide-12">
+						<img alt="目录" class="text" src="../assets/img/server/160419book2.png">
+					</div>
+					<div class="slide" id="slide-13">
+						<img alt="目录" class="text" src="../assets/img/server/160419book3.jpg">
+					</div>
+					<div class="slide" id="slide-14">
+						<img alt="目录" class="text" src="../assets/img/server/160419book4.png">
+					</div>
+					<div class="slide" id="slide-15">
+						<img alt="目录" class="text" src="../assets/img/server/160419book5.jpg">
+					</div>
+					<div class="slide" id="slide-16">
+						<img alt="目录" class="text" src="../assets/img/server/160419book6.png">
+					</div>
+				</div>
+			</div>	
+		</div>    
+	</div>
+	<script>
+	function bookshow(){
+		$('.popupbox').show();
+	}
+	function thishide(){
+		$('.popupbox').hide();
+	}
+	</script>
+</body>
+</html>

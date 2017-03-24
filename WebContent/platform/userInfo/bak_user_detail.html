@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head lang="zh-CN">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>开关教育服务平台-个人中心</title> 
+
+    <!-- CSS -->
+    <link rel="shortcut icon" href="http://www.getwant.com/switchweb/img/title.ico" />
+    <link rel="stylesheet" href="../assets/js/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" href="../assets/js/easyui/themes/icon.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/user/user_detail.css">
+</head>
+<body>
+<!--     <img class="titleImg" src="../assets/img/lang/lang_main_bk2.png" alt=""/> -->
+<!--     <div class="userInfo"> -->
+<!--         <img src="../assets/img/lang/lang_main_21.png" alt=""/><span>个人中心</span> -->
+       
+<!--     </div> -->
+    
+    <div class="userInfoText">
+    	
+    	<div class="everyone">
+    	
+    		<div class="subtitle0 subtitle_site">
+    			<div class="subtitle"></div>
+    			<div class="subtitle_text">公开信息:</div>
+    			<div class="tips">( 公开信息对其他用户可见 )</div>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">开关号:</td>
+	    				<td class="public_font content"><input id="uid" class="input" value="" readonly="readonly"/></td>
+	    				<td class="public_font opt"></td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+	    		<table border="0">
+	    			<tr>
+	    				<td class="public_font name">中文昵称:</td>
+	    				<td class="public_font content"><input id="chnname" class="input" value="" readonly="readonly"/></td>
+	    				<td class="public_font opt">修改</td>
+	    				<td class="public_font save">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">英文昵称:</td>
+	    				<td class="public_font content"><input id="engname" class="input" value="" readonly="readonly"/></td>
+	    				<td class="public_font opt">修改</td>
+	    				<td class="public_font save">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    	</div>
+    	<div class="self">
+    		<div class="subtitle0 subtitle_site">
+    			<div class="subtitle"></div>
+    			<div class="subtitle_text">非公开信息:</div>
+    			<div class="tips">( 非公开信息对其他用户不可见，主要用于开关教育与您个人沟通联系 )</div>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">手机号:</td>
+	    				<td class="public_font content"><input id="cellphone" class="input" value="" readonly="readonly"/></td>
+	    				<td class="public_font opt">修改</td>
+	    				<td class="public_font save">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+	    		<table border="0">
+	    			<tr>
+	    				<td class="public_font name">邮箱:</td>
+	    				<td class="public_font content"><input id="mail" class="input" value="" readonly="readonly"/></td>
+	    				<td class="public_font opt">修改</td>
+	    				<td class="public_font save">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">真是姓名:</td>
+	    				<td class="public_font content"><input id="realname" class="input" value="" readonly="readonly"/></td>
+	    				<td class="public_font opt">修改</td>
+	    				<td class="public_font save">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">性别:</td>
+<!-- 	    				<td class="public_font content"><input id="gender" class="input" value="" readonly="readonly"/></td> -->
+	    				<td class="public_font content">
+	    					<input class="input" id="gender" value="" readonly="readonly"/>
+		    				<select class="input" id="gender_hidden" style="display:none">
+<!-- 								<option value ="-1" selected="selected"></option> -->
+								<option value ="1">男</option>
+								<option value ="0">女</option>
+					    	</select>
+				    	</td>
+	    				<td class="public_font opt_gender">修改</td>
+	    				<td class="public_font save_gender">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">出生日期:</td>
+	    				<td class="public_font content">
+		    				<input  class="input" id="birthday_s" value="" readonly="readonly"/>
+		    				<input type="text" class="input" id="birthday_s_hidden" readonly="readonly"  style="display:none"/>
+<!-- 	    				<td class="public_font content"><input id="birthday_s" class="input" value="" readonly="readonly"/></td> -->
+	    				</td>
+	    				<td class="public_font opt_birthday">修改</td>
+	    				<td class="public_font save_birthday">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    		<div class="item">
+    			<table border="0">
+	    			<tr>
+	    				<td class="public_font name">所在区域:</td>
+	    				<td class="public_font content"><input id="addr" class="input" value="北京" readonly="readonly"/></td>
+	    				<td class="public_font opt">修改</td>
+	    				<td class="public_font save">保存</td>
+	    			</tr>
+    			</table>
+    			<hr class="hr"/>
+    		</div>
+    	
+    	</div>
+    
+    </div>
+    
+    
+    
+	<script type="text/javascript" src="../assets/js/jquery-1.7.2.min.js"></script>
+<!--     <script src="../assets/js/jquery-1.8.2.min.js"></script> -->
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/diagMsg/jquery.gritter.min.js"></script>
+    <script src="../assets/js/diagMsg/common.js"></script>
+    <script src="../assets/js/diag.js"></script>
+	<script src="../assets/js/baseUrl.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery-ui-datepicker.js"></script>
+    <script src="../assets/js/userInfo/user_detail.js"></script>
+</body>
+</html>

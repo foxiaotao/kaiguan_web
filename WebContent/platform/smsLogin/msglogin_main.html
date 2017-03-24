@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head lang="zh-CN">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title></title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/js/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" href="../assets/js/easyui/themes/icon.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/lang.css">
+    <link rel="stylesheet" href="../assets/css/reg.css">
+</head>
+<!-- 获取ip -->
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<body>
+    <div class="banner">
+        <div class="logo"></div>
+        <div class="welcome">
+        </div>
+        <div class="tool">
+            <div class="toolItem home"></div>
+        </div>
+    </div>
+    
+    <div class="backgrund_frame">
+	    <div class="input_area">
+	    	<span id="title_text_msg" style="font-size:16px;color:#dd6844">确认你的国家和地区，并填写手机号码</span></br></br>
+	<!--     	<input id="country_input" placeholder="请选择国家和地区"/></br></br></br> -->
+	    	<select id="country_input">
+				<option value ="CHA">中国</option>
+				<option value ="USA">美国</option>
+				<option value="ENG">英国</option>
+				<option value="GEP">日本</option>
+	    	</select></br></br></br>
+	    	<input id="phone_input_suff" value="+86" />
+	    	<input id="phone_input" placeholder="请输入手机号码"/>
+	    </div>
+	    
+	    <div class="button_area">
+	    	<input type="checkbox" id="check_box"/>&nbsp;&nbsp;
+	    	<span id="title_text_msg" style="font-size:16px;color:#535252">同意《软件使用和用户注册协议》</span></br></br>
+	    	<button id="reg">登录</button>
+	    </div>
+    </div>
+    <script src="../assets/js/jquery-1.8.2.min.js"></script>
+    <script src="../assets/js/diagMsg/jquery.gritter.min.js"></script>
+    <script src="../assets/js/diagMsg/common.js"></script>
+	<script src="../assets/js/diag.js"></script>
+	<script src="../assets/js/baseUrl.js"></script>
+    <script src="../assets/js/jquery.cookie.js"></script>
+    <script src="../assets/js/msglogin/msglogin.js"></script>
+</body>
+</html>

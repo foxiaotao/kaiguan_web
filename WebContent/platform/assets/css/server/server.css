@@ -1,0 +1,37 @@
+.userInfoText{position:absolute;top:10%;left:50%;margin-left:-700px;width:1200px;height:auto;text-align:left}
+.everyone{margin-top:inherit;margin:0 auto 0 auto;width:900px;height:auto;text-align:left}
+.self{margin-top:inherit;margin:0 auto 0 auto;width:900px;height:auto;text-align:left}
+
+
+.item{margin-top:inherit;margin:15px;}
+.table{width:1000px;}
+.tr{width:1000px;height:60px;background-color:#faf5d3;vertical-align:middle}
+.tr2{width:1000px;height:60px;background-color:#faf5d3;text-align:left}
+.index{width:40px;text-align:left;text-indent:10px; word-spacing:10px;letter-spacing:2px;color:#444242;font-size: 18px;}
+.name{width:180px;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#444242;font-size: 16px;}
+.checkbox{width:20px;}
+.content{width:300px;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#f38888;font-size: 18px;}
+.endtime{width:300px;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#f84e49;font-size: 16px;}
+.rmb{width:120px;text-align:left;word-spacing:10px;letter-spacing:2px;color:#808080;font-size: 18px}
+/* .rmb{width:100px;text-align:left;text-decoration:line-through; word-spacing:10px;letter-spacing:2px;color:#808080;font-size: 18px} */
+.viprmb{width:120px;text-align:left; word-spacing:10px;letter-spacing:2px;color:#000000;font-size: 18px}
+.opt{width:80px;text-align:center;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#424ff8;font-size: 16px;cursor:pointer}
+#pic{margin-top:inherit;margin:50px auto 0 auto;width:96px;height:135px;background:url(./server.png)}
+
+.subtitle{margin-top:inherit;margin:1cm auto -22px 0;width:200px;height:30px;background-color:#f4e6f4}
+.tips{margin:0 auto 0 5cm;text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#b0aeaf;font-size: 14px;}
+.subtitle_text{text-align:left;text-indent:40px; word-spacing:10px;letter-spacing:2px;color:#f97474;font-size: 16px;font-weight: bold}
+
+.line{
+        transform: rotate(-7.156494deg);
+        -webkit-transform: rotate(-7.156494deg);
+        position: absolute;
+        background: none repeat scroll 0% 0% #f38888;
+        top: 50%;
+        left: -5px;
+        right: -5px;
+        height: 1px;
+}
+.ssl_item{
+        position: relative;
+}

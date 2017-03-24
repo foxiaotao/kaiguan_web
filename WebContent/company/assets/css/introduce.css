@@ -1,0 +1,25 @@
+*{padding: 0;margin: 0;text-decoration: none;}
+html,body{font-size: 12px;font-family: 'Microsoft YaHei';}
+ul,li{list-style: none;}
+a,span{display: inline-block;}
+
+.main{width: 1000px;margin: 0 auto;color: #444;overflow: hidden;}
+.header{width: 1000px;height: 80px;margin: 0 auto;position:absolute;top:0;}
+.lbflash{width: 100%;height: 470px;}
+.footer{width: 100%;height: 64px;background: #194982;color: #93bae8;border-top: 1px solid #dedede;margin-top: 15px;}
+.footer p{text-align: center;}
+.position{padding: 20px 0;}
+
+.tabs{float: left;width: 225px;}
+.tabs h4{line-height: 36px;padding-left: 20px;font-size: 14px;border-bottom: 1px solid #ddd;}
+.tabs ul li{line-height: 28px;padding-left: 40px;border-bottom: 1px dotted #ddd;}
+.tabs ul li a{color: #444;}
+.tabs ul li a:hover,.wrap_recruit .tabs ul li.on a{color: #069;}
+
+.content{float: right;width: 730px;padding: 15px;}
+.content .tab_content{padding-bottom: 20px;}
+.content .tab_content h2.title{line-height: 32px;font-size: 24px;font-weight: 500;padding-bottom: 10px;border-bottom: 1px solid #ddd;margin-bottom: 20px;}
+.content .tab_content p{line-height: 24px;margin-bottom: 8px;}
+.wrap_recruit .content .tab_content span.line{width: 100%;height: 10px;background: url(../images/recruit/160120line.png) repeat-x;margin-bottom: 45px;}
+.wrap_recruit .lbflash{background: url(../images/recruit/160120header.jpg) no-repeat 50%;}
+.wrap_introduce .lbflash{background: url(../images/introduce/company_introduce.jpg) no-repeat 50%;}

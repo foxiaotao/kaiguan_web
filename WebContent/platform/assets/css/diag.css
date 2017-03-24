@@ -1,0 +1,56 @@
+
+
+/*diag*/
+
+.diagMask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    /* IE9 + etc...modern browsers */
+    opacity: .5;
+    /* IE 4-9 */
+    filter: alpha(opacity=50);
+}
+
+.diag {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -70px;
+    margin-left: -150px;
+    width: 300px;
+    height: 140px;
+    border:solid #ebb450 3px;
+    background-color: white;
+    z-index:9999;
+}
+
+.diag .text {
+    text-align:center;
+    margin-top: 20px;
+    height:45px;
+    line-height:45px;
+    font-family: Microsoft YaHei;
+    font-size: 18px;
+    color:#333;
+}
+
+.ok,.ok_singel,#cancel {
+	margin:0;
+    position:absolute;
+    top:85px;
+    width: 80px;
+    height: 30px;
+    background: #ebb450;
+    cursor: pointer;
+    color:#fff;
+    line-height:30px;
+    text-align:center;
+    font-size:16px;
+}
+.ok{left:50px;}
+.ok_singel{left:37%;}
+#cancel{right:50px;}
